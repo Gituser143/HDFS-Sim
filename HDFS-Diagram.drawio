@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-02-27T09:17:09.042Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:72.0) Gecko/20100101 Firefox/72.0" etag="GOzknrMhGOsTLxpCTkIk" version="12.7.8" type="github">
+<mxfile host="www.draw.io" modified="2020-02-27T09:37:53.398Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:72.0) Gecko/20100101 Firefox/72.0" etag="Vm24ZnBHAr4M9V-0PDVb" version="12.7.8" type="github">
   <diagram id="zA8VsBheuBRrl_neqVgZ" name="Page-1">
     <mxGraphModel dx="1422" dy="1931" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -29,8 +29,7 @@
             <mxPoint x="250" y="1570" as="targetPoint" />
             <Array as="points">
               <mxPoint x="255" y="1370" />
-              <mxPoint x="255" y="1770" />
-              <mxPoint x="280" y="1770" />
+              <mxPoint x="255" y="1920" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -49,11 +48,17 @@
         <mxCell id="0iTcsFP1lSR9jo0iLhN2-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="JU47VE_lCFR2i_xXfKO_-7" target="0iTcsFP1lSR9jo0iLhN2-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="0iTcsFP1lSR9jo0iLhN2-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="JU47VE_lCFR2i_xXfKO_-7" target="0iTcsFP1lSR9jo0iLhN2-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="JU47VE_lCFR2i_xXfKO_-7" value="Namenode.start()" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="280" y="1560" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="0iTcsFP1lSR9jo0iLhN2-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="JU47VE_lCFR2i_xXfKO_-8" target="0iTcsFP1lSR9jo0iLhN2-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="JU47VE_lCFR2i_xXfKO_-8" value="StartFailure()" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="280" y="1740" width="120" height="60" as="geometry" />
+          <mxGeometry x="260" y="1890" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="rZpP8SGYZrVl_NE0W-DY-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="JU47VE_lCFR2i_xXfKO_-11" target="rZpP8SGYZrVl_NE0W-DY-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -246,6 +251,21 @@
         </mxCell>
         <mxCell id="0iTcsFP1lSR9jo0iLhN2-8" value="Starts communication monitoring deamon" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="750" y="1560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0iTcsFP1lSR9jo0iLhN2-11" value="pendingReplications = new PendingReplicationBlocks()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="1660" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0iTcsFP1lSR9jo0iLhN2-15" value="" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="1875" width="320" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="0iTcsFP1lSR9jo0iLhN2-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0iTcsFP1lSR9jo0iLhN2-17" target="0iTcsFP1lSR9jo0iLhN2-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0iTcsFP1lSR9jo0iLhN2-17" value="Thread killer = new Thread(new NodeKiller())" style="text;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="1905" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0iTcsFP1lSR9jo0iLhN2-18" value="Simulator.getallDatanodes().killNode(e.getSource());" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="810" y="1890" width="330" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
