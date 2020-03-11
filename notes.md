@@ -6,30 +6,26 @@ namenode consists of namespace and edit.log
 
 Datanode:
 =========
-	Block replica on a datanode represented by 2 files:
-	----------------------------------------------------
-		* data
-		* generation stamp
-
-	During startup:
-	----------------
-		* performs handshake with the namenode:
-		 	1. verifies namespace ID
-		 	2. (n ID is assigned on making of FS and persistently stored)
-		* Datanode registers with the NN:
-			1. DNs persistently store their storage IDs
-			2. Storage ID is a unique identifier of DN.
-
-	Block reports:
-	---------------
-		* contains block ID,generation stamp and length
-		* sent every x amount of time.
-
-	Heartbeats:
-	-------------
-		* By default a datanode is chucked out after 10 mins of not sending a heartbeat. New replicas are then scheduled.
-		* Carry info about storage capacity, number of data tansfers currently in progress.
-
+Block replica on a datanode represented by 2 files:
+----------------------------------------------------
+	* data
+	* generation stamp
+During startup:
+----------------
+	* performs handshake with the namenode:
+	 	1. verifies namespace ID
+	 	2. (n ID is assigned on making of FS and persistently stored)
+	* Datanode registers with the NN:
+		1. DNs persistently store their storage IDs
+		2. Storage ID is a unique identifier of DN.
+Block reports:
+---------------
+	* contains block ID,generation stamp and length
+	* sent every x amount of time.
+Heartbeats:
+-------------
+	* By default a datanode is chucked out after 10 mins of not sending a heartbeat. New replicas are then scheduled.
+	* Carry info about storage capacity, number of data tansfers currently in progress.
 	Instruction sending from namenode :
 	------------------------------------
 		Namenode uses replies to heartbeats to send instructions.( commands to replicate blocks to other nodes, remove local block replicas, re-register and send an immediate block report, and shut down the node)
