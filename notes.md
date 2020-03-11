@@ -1,3 +1,5 @@
+[Source] (http://www.corejavaguru.com/bigdata/hadoop/introduction)
+
 inodes represent files and directories in namenode.
 namenode consists of namespace and edit.log
 
