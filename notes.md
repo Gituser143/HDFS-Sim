@@ -68,6 +68,6 @@ If underreplicated
 
 Balancer : 
 -----------
-			* Datanode disk space util is not taken into account. So, data gets imbalanced between datanodes
-			* Balancer -> tool that can be run by the cluster admin.
-			* Minimizes inter rack data copying.
+* Datanode disk space util is not taken into account. So, data gets imbalanced between datanodes
+* Balancer -> tool that can be run by the cluster admin.
+* Minimizes inter rack data copying.
