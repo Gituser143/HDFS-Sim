@@ -1,2 +1,5 @@
-# HDFS-Sim
-Flow chart representing working of HDFS Simulator. Implemented for SEM 4 Mini Project
+SEM 4 Mini Project: Energy efficiency for HDFS
+===============================================
+* Presentations for mini project review
+* ```.draw``` files contain diagrams drawn in Draw.io
+* ```.png``` files are exported from the ```.draw``` files.
