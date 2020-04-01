@@ -2,8 +2,8 @@ Infrequent transfer
 ====================
 ```
 cluster_Initialization(HZ_Percentage):
-  initialize_hot_zone = (HZ_Percentage / 100) * totalNodes
-  initialize_cold_zone = ((100 - HZ_Percentage) / 100) * totalNodes
+  Hot_Zone_Nodes = (HZ_Percentage / 100) * totalNodes
+  Cold_Zone_Nodes = ((100 - HZ_Percentage) / 100) * totalNodes
 
 inintial_block_write(Blocks):
   distribute_blocks_among_hot_nodes():
@@ -13,7 +13,8 @@ inintial_block_write(Blocks):
 
 while(cluster.isActive):
   sleep(3 seconds)
-  namenode.getHeartBeats(Hot_Zone_Nodes)
+  Hot_Zone_Blocks = namenode.getHeartBeats(Hot_Zone_Nodes)
+  Cold_Zone_Blocks = namenode.getHeartBeats(Cold_Zone_Nodes)
 
   for block in Hot_Zone_Blocks:
     if(block.lastAccess > threshold):
@@ -43,7 +44,8 @@ inintial_block_write(Blocks):
 
 while(cluster.isActive):
   sleep(3 seconds)
-  namenode.getHeartBeats(Hot_Zone_Nodes)
+  Hot_Zone_Blocks = namenode.getHeartBeats(Hot_Zone_Nodes)
+  Cold_Zone_Blocks = namenode.getHeartBeats(Cold_Zone_Nodes)
 
   for block in Hot_Zone_Blocks:
     if(block.lastAccess > threshold):
