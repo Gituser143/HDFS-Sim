@@ -4,4 +4,4 @@ SEM 4 Mini Project: Energy efficiency for HDFS
 * ```/draw-files``` contains diagrams drawn in Draw.io.
 * ```/images``` contains images which were exported from the ```.draw``` files.
 * ```notes.md``` contains notes about hadoop.
-* ```transfer-algorithm``` contains the algorithm used to shift blocks between zones.
+* ```transfer-algorithm.md``` contains the algorithm used to shift blocks between zones.
