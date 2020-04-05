@@ -1,0 +1,1600 @@
+iteration : 0
+Namenode Created.
+0 SSD Datanodes Created.
+100 HDD Datanodes Created
+
+1700 Watts of Power consumed for bringing up 100 Nodes
+34500 Watts of Power consumed for initial block distribution (First write)
+20700 Watts of Power consumed for initial Block access (First Read of hot data)
+61200 Watts of Power consumed for maintaining the infrastructure (Cluster in active state)
+0 Watts of Power consumed when transferring data to cold zone
+34500 Watts of Power consumed for continued Block access (Regular reading of hot data)
+
+
+Total power consumed = 152600
+END
+
+iteration : 1
+Namenode Created.
+1 SSD Datanodes Created.
+99 HDD Datanodes Created
+
+107 Watts of Power consumed for bringing up 100 Nodes
+15000 Watts of Power consumed for initial block distribution (First write)
+9000 Watts of Power consumed for initial Block access (First Read of hot data)
+28800 Watts of Power consumed for maintaining the infrastructure (Cluster in active state)
+18400 Watts of Power consumed when transferring data to cold zone
+3924 Watts of Power consumed for continued Block access (Regular reading of hot data)
+
+
+Total power consumed = 227831
+END
+
+iteration : 2
+Namenode Created.
+2 SSD Datanodes Created.
+98 HDD Datanodes Created
+
+114 Watts of Power consumed for bringing up 100 Nodes
+15000 Watts of Power consumed for initial block distribution (First write)
+9000 Watts of Power consumed for initial Block access (First Read of hot data)
+28800 Watts of Power consumed for maintaining the infrastructure (Cluster in active state)
+18400 Watts of Power consumed when transferring data to cold zone
+3923 Watts of Power consumed for continued Block access (Regular reading of hot data)
+
+
+Total power consumed = 303068
+END
+
+iteration : 3
+Namenode Created.
+3 SSD Datanodes Created.
+97 HDD Datanodes Created
+
+121 Watts of Power consumed for bringing up 100 Nodes
+15000 Watts of Power consumed for initial block distribution (First write)
+9000 Watts of Power consumed for initial Block access (First Read of hot data)
+28800 Watts of Power consumed for maintaining the infrastructure (Cluster in active state)
+18400 Watts of Power consumed when transferring data to cold zone
+3922 Watts of Power consumed for continued Block access (Regular reading of hot data)
+
+
+Total power consumed = 378311
+END
+
+iteration : 4
+Namenode Created.
+4 SSD Datanodes Created.
+96 HDD Datanodes Created
+
+128 Watts of Power consumed for bringing up 100 Nodes
+15000 Watts of Power consumed for initial block distribution (First write)
+9000 Watts of Power consumed for initial Block access (First Read of hot data)
+28800 Watts of Power consumed for maintaining the infrastructure (Cluster in active state)
+18400 Watts of Power consumed when transferring data to cold zone
+3921 Watts of Power consumed for continued Block access (Regular reading of hot data)
+
+
+Total power consumed = 453560
+END
+
+iteration : 5
+Namenode Created.
+5 SSD Datanodes Created.
+95 HDD Datanodes Created
+
+135 Watts of Power consumed for bringing up 100 Nodes
+15000 Watts of Power consumed for initial block distribution (First write)
+9000 Watts of Power consumed for initial Block access (First Read of hot data)
+28800 Watts of Power consumed for maintaining the infrastructure (Cluster in active state)
+18400 Watts of Power consumed when transferring data to cold zone
+3920 Watts of Power consumed for continued Block access (Regular reading of hot data)
+
+
+Total power consumed = 528815
+END
+
+iteration : 6
+Namenode Created.
+6 SSD Datanodes Created.
+94 HDD Datanodes Created
+
+142 Watts of Power consumed for bringing up 100 Nodes
+15000 Watts of Power consumed for initial block distribution (First write)
+9000 Watts of Power consumed for initial Block access (First Read of hot data)
+28800 Watts of Power consumed for maintaining the infrastructure (Cluster in active state)
+18400 Watts of Power consumed when transferring data to cold zone
+3919 Watts of Power consumed for continued Block access (Regular reading of hot data)
+
+
+Total power consumed = 604076
+END
+
+iteration : 7
+Namenode Created.
+7 SSD Datanodes Created.
+93 HDD Datanodes Created
+
+149 Watts of Power consumed for bringing up 100 Nodes
+15000 Watts of Power consumed for initial block distribution (First write)
+8880 Watts of Power consumed for initial Block access (First Read of hot data)
+28896 Watts of Power consumed for maintaining the infrastructure (Cluster in active state)
+18446 Watts of Power consumed when transferring data to cold zone
+3888 Watts of Power consumed for continued Block access (Regular reading of hot data)
+
+
+Total power consumed = 679335
+END
+
+iteration : 8
+Namenode Created.
+8 SSD Datanodes Created.
+92 HDD Datanodes Created
+
+156 Watts of Power consumed for bringing up 100 Nodes
+15000 Watts of Power consumed for initial block distribution (First write)
+8880 Watts of Power consumed for initial Block access (First Read of hot data)
+28896 Watts of Power consumed for maintaining the infrastructure (Cluster in active state)
+18446 Watts of Power consumed when transferring data to cold zone
+3887 Watts of Power consumed for continued Block access (Regular reading of hot data)
+
+
+Total power consumed = 754600
+END
+
+iteration : 9
+Namenode Created.
+9 SSD Datanodes Created.
+91 HDD Datanodes Created
+
+163 Watts of Power consumed for bringing up 100 Nodes
+15000 Watts of Power consumed for initial block distribution (First write)
+8910 Watts of Power consumed for initial Block access (First Read of hot data)
+28872 Watts of Power consumed for maintaining the infrastructure (Cluster in active state)
+18446 Watts of Power consumed when transferring data to cold zone
+3886 Watts of Power consumed for continued Block access (Regular reading of hot data)
+
+
+Total power consumed = 829877
+END
+
+iteration : 10
+Namenode Created.
+10 SSD Datanodes Created.
+90 HDD Datanodes Created
+
+170 Watts of Power consumed for bringing up 100 Nodes
+15000 Watts of Power consumed for initial block distribution (First write)
+9000 Watts of Power consumed for initial Block access (First Read of hot data)
+28800 Watts of Power consumed for maintaining the infrastructure (Cluster in active state)
+18400 Watts of Power consumed when transferring data to cold zone
+3915 Watts of Power consumed for continued Block access (Regular reading of hot data)
+
+
+Total power consumed = 905162
+END
+
+iteration : 11
+Namenode Created.
+11 SSD Datanodes Created.
+89 HDD Datanodes Created
+
+177 Watts of Power consumed for bringing up 100 Nodes
+15000 Watts of Power consumed for initial block distribution (First write)
+8910 Watts of Power consumed for initial Block access (First Read of hot data)
+28872 Watts of Power consumed for maintaining the infrastructure (Cluster in active state)
+18446 Watts of Power consumed when transferring data to cold zone
+3884 Watts of Power consumed for continued Block access (Regular reading of hot data)
+
+
+Total power consumed = 980451
+END
+
+iteration : 12
+Namenode Created.
+12 SSD Datanodes Created.
+88 HDD Datanodes Created
+
+184 Watts of Power consumed for bringing up 100 Nodes
+15000 Watts of Power consumed for initial block distribution (First write)
+9000 Watts of Power consumed for initial Block access (First Read of hot data)
+28800 Watts of Power consumed for maintaining the infrastructure (Cluster in active state)
+18400 Watts of Power consumed when transferring data to cold zone
+3913 Watts of Power consumed for continued Block access (Regular reading of hot data)
+
+
+Total power consumed = 1055748
+END
+
+iteration : 13
+Namenode Created.
+13 SSD Datanodes Created.
+87 HDD Datanodes Created
+
+191 Watts of Power consumed for bringing up 100 Nodes
+15000 Watts of Power consumed for initial block distribution (First write)
+8970 Watts of Power consumed for initial Block access (First Read of hot data)
+28824 Watts of Power consumed for maintaining the infrastructure (Cluster in active state)
+18400 Watts of Power consumed when transferring data to cold zone
+3912 Watts of Power consumed for continued Block access (Regular reading of hot data)
+
+
+Total power consumed = 1131045
+END
+
+iteration : 14
+Namenode Created.
+14 SSD Datanodes Created.
+86 HDD Datanodes Created
+
+198 Watts of Power consumed for bringing up 100 Nodes
+15000 Watts of Power consumed for initial block distribution (First write)
+8820 Watts of Power consumed for initial Block access (First Read of hot data)
+28944 Watts of Power consumed for maintaining the infrastructure (Cluster in active state)
+18492 Watts of Power consumed when transferring data to cold zone
+3851 Watts of Power consumed for continued Block access (Regular reading of hot data)
+
+
+Total power consumed = 1206350
+END
+
+iteration : 15
+Namenode Created.
+15 SSD Datanodes Created.
+85 HDD Datanodes Created
+
+205 Watts of Power consumed for bringing up 100 Nodes
+15000 Watts of Power consumed for initial block distribution (First write)
+9000 Watts of Power consumed for initial Block access (First Read of hot data)
+28800 Watts of Power consumed for maintaining the infrastructure (Cluster in active state)
+18400 Watts of Power consumed when transferring data to cold zone
+3910 Watts of Power consumed for continued Block access (Regular reading of hot data)
+
+
+Total power consumed = 1281665
+END
+
+iteration : 16
+Namenode Created.
+16 SSD Datanodes Created.
+84 HDD Datanodes Created
+
+212 Watts of Power consumed for bringing up 100 Nodes
+15000 Watts of Power consumed for initial block distribution (First write)
+8640 Watts of Power consumed for initial Block access (First Read of hot data)
+29088 Watts of Power consumed for maintaining the infrastructure (Cluster in active state)
+18584 Watts of Power consumed when transferring data to cold zone
+3789 Watts of Power consumed for continued Block access (Regular reading of hot data)
+
+
+Total power consumed = 1356978
+END
+
+iteration : 17
+Namenode Created.
+17 SSD Datanodes Created.
+83 HDD Datanodes Created
+
+219 Watts of Power consumed for bringing up 100 Nodes
+15000 Watts of Power consumed for initial block distribution (First write)
+8670 Watts of Power consumed for initial Block access (First Read of hot data)
+29064 Watts of Power consumed for maintaining the infrastructure (Cluster in active state)
+18538 Watts of Power consumed when transferring data to cold zone
+3818 Watts of Power consumed for continued Block access (Regular reading of hot data)
+
+
+Total power consumed = 1432287
+END
+
+iteration : 18
+Namenode Created.
+18 SSD Datanodes Created.
+82 HDD Datanodes Created
+
+226 Watts of Power consumed for bringing up 100 Nodes
+15000 Watts of Power consumed for initial block distribution (First write)
+8640 Watts of Power consumed for initial Block access (First Read of hot data)
+29088 Watts of Power consumed for maintaining the infrastructure (Cluster in active state)
+18584 Watts of Power consumed when transferring data to cold zone
+3787 Watts of Power consumed for continued Block access (Regular reading of hot data)
+
+
+Total power consumed = 1507612
+END
+
+iteration : 19
+Namenode Created.
+19 SSD Datanodes Created.
+81 HDD Datanodes Created
+
+233 Watts of Power consumed for bringing up 100 Nodes
+15000 Watts of Power consumed for initial block distribution (First write)
+8550 Watts of Power consumed for initial Block access (First Read of hot data)
+29160 Watts of Power consumed for maintaining the infrastructure (Cluster in active state)
+18630 Watts of Power consumed when transferring data to cold zone
+3756 Watts of Power consumed for continued Block access (Regular reading of hot data)
+
+
+Total power consumed = 1582941
+END
+
+iteration : 20
+Namenode Created.
+20 SSD Datanodes Created.
+80 HDD Datanodes Created
+
+240 Watts of Power consumed for bringing up 100 Nodes
+15000 Watts of Power consumed for initial block distribution (First write)
+9000 Watts of Power consumed for initial Block access (First Read of hot data)
+28800 Watts of Power consumed for maintaining the infrastructure (Cluster in active state)
+18400 Watts of Power consumed when transferring data to cold zone
+3905 Watts of Power consumed for continued Block access (Regular reading of hot data)
+
+
+Total power consumed = 1658286
+END
+
+iteration : 21
+Namenode Created.
+21 SSD Datanodes Created.
+79 HDD Datanodes Created
+
+247 Watts of Power consumed for bringing up 100 Nodes
+15000 Watts of Power consumed for initial block distribution (First write)
+8820 Watts of Power consumed for initial Block access (First Read of hot data)
+28944 Watts of Power consumed for maintaining the infrastructure (Cluster in active state)
+18492 Watts of Power consumed when transferring data to cold zone
+3844 Watts of Power consumed for continued Block access (Regular reading of hot data)
+
+
+Total power consumed = 1733633
+END
+
+iteration : 22
+Namenode Created.
+22 SSD Datanodes Created.
+78 HDD Datanodes Created
+
+254 Watts of Power consumed for bringing up 100 Nodes
+15000 Watts of Power consumed for initial block distribution (First write)
+8580 Watts of Power consumed for initial Block access (First Read of hot data)
+29136 Watts of Power consumed for maintaining the infrastructure (Cluster in active state)
+18584 Watts of Power consumed when transferring data to cold zone
+3783 Watts of Power consumed for continued Block access (Regular reading of hot data)
+
+
+Total power consumed = 1808970
+END
+
+iteration : 23
+Namenode Created.
+23 SSD Datanodes Created.
+77 HDD Datanodes Created
+
+261 Watts of Power consumed for bringing up 100 Nodes
+15000 Watts of Power consumed for initial block distribution (First write)
+8970 Watts of Power consumed for initial Block access (First Read of hot data)
+28824 Watts of Power consumed for maintaining the infrastructure (Cluster in active state)
+18400 Watts of Power consumed when transferring data to cold zone
+3902 Watts of Power consumed for continued Block access (Regular reading of hot data)
+
+
+Total power consumed = 1884327
+END
+
+iteration : 24
+Namenode Created.
+24 SSD Datanodes Created.
+76 HDD Datanodes Created
+
+268 Watts of Power consumed for bringing up 100 Nodes
+15000 Watts of Power consumed for initial block distribution (First write)
+8640 Watts of Power consumed for initial Block access (First Read of hot data)
+29088 Watts of Power consumed for maintaining the infrastructure (Cluster in active state)
+18584 Watts of Power consumed when transferring data to cold zone
+3781 Watts of Power consumed for continued Block access (Regular reading of hot data)
+
+
+Total power consumed = 1959688
+END
+
+iteration : 25
+Namenode Created.
+25 SSD Datanodes Created.
+75 HDD Datanodes Created
+
+275 Watts of Power consumed for bringing up 100 Nodes
+15000 Watts of Power consumed for initial block distribution (First write)
+9000 Watts of Power consumed for initial Block access (First Read of hot data)
+28800 Watts of Power consumed for maintaining the infrastructure (Cluster in active state)
+18400 Watts of Power consumed when transferring data to cold zone
+3900 Watts of Power consumed for continued Block access (Regular reading of hot data)
+
+
+Total power consumed = 2035063
+END
+
+iteration : 26
+Namenode Created.
+26 SSD Datanodes Created.
+74 HDD Datanodes Created
+
+282 Watts of Power consumed for bringing up 100 Nodes
+15000 Watts of Power consumed for initial block distribution (First write)
+8580 Watts of Power consumed for initial Block access (First Read of hot data)
+29136 Watts of Power consumed for maintaining the infrastructure (Cluster in active state)
+18584 Watts of Power consumed when transferring data to cold zone
+3779 Watts of Power consumed for continued Block access (Regular reading of hot data)
+
+
+Total power consumed = 2110424
+END
+
+iteration : 27
+Namenode Created.
+27 SSD Datanodes Created.
+73 HDD Datanodes Created
+
+289 Watts of Power consumed for bringing up 100 Nodes
+15000 Watts of Power consumed for initial block distribution (First write)
+8910 Watts of Power consumed for initial Block access (First Read of hot data)
+28872 Watts of Power consumed for maintaining the infrastructure (Cluster in active state)
+18446 Watts of Power consumed when transferring data to cold zone
+3868 Watts of Power consumed for continued Block access (Regular reading of hot data)
+
+
+Total power consumed = 2185809
+END
+
+iteration : 28
+Namenode Created.
+28 SSD Datanodes Created.
+72 HDD Datanodes Created
+
+296 Watts of Power consumed for bringing up 100 Nodes
+15000 Watts of Power consumed for initial block distribution (First write)
+8400 Watts of Power consumed for initial Block access (First Read of hot data)
+29280 Watts of Power consumed for maintaining the infrastructure (Cluster in active state)
+18676 Watts of Power consumed when transferring data to cold zone
+3717 Watts of Power consumed for continued Block access (Regular reading of hot data)
+
+
+Total power consumed = 2261178
+END
+
+iteration : 29
+Namenode Created.
+29 SSD Datanodes Created.
+71 HDD Datanodes Created
+
+303 Watts of Power consumed for bringing up 100 Nodes
+15000 Watts of Power consumed for initial block distribution (First write)
+8700 Watts of Power consumed for initial Block access (First Read of hot data)
+29040 Watts of Power consumed for maintaining the infrastructure (Cluster in active state)
+18538 Watts of Power consumed when transferring data to cold zone
+3806 Watts of Power consumed for continued Block access (Regular reading of hot data)
+
+
+Total power consumed = 2336565
+END
+
+iteration : 30
+Namenode Created.
+30 SSD Datanodes Created.
+70 HDD Datanodes Created
+
+310 Watts of Power consumed for bringing up 100 Nodes
+15000 Watts of Power consumed for initial block distribution (First write)
+9000 Watts of Power consumed for initial Block access (First Read of hot data)
+28800 Watts of Power consumed for maintaining the infrastructure (Cluster in active state)
+18400 Watts of Power consumed when transferring data to cold zone
+3895 Watts of Power consumed for continued Block access (Regular reading of hot data)
+
+
+Total power consumed = 2411970
+END
+
+iteration : 31
+Namenode Created.
+31 SSD Datanodes Created.
+69 HDD Datanodes Created
+
+317 Watts of Power consumed for bringing up 100 Nodes
+15000 Watts of Power consumed for initial block distribution (First write)
+8370 Watts of Power consumed for initial Block access (First Read of hot data)
+29304 Watts of Power consumed for maintaining the infrastructure (Cluster in active state)
+18722 Watts of Power consumed when transferring data to cold zone
+3684 Watts of Power consumed for continued Block access (Regular reading of hot data)
+
+
+Total power consumed = 2487367
+END
+
+iteration : 32
+Namenode Created.
+32 SSD Datanodes Created.
+68 HDD Datanodes Created
+
+324 Watts of Power consumed for bringing up 100 Nodes
+15000 Watts of Power consumed for initial block distribution (First write)
+8640 Watts of Power consumed for initial Block access (First Read of hot data)
+29088 Watts of Power consumed for maintaining the infrastructure (Cluster in active state)
+18584 Watts of Power consumed when transferring data to cold zone
+3773 Watts of Power consumed for continued Block access (Regular reading of hot data)
+
+
+Total power consumed = 2562776
+END
+
+iteration : 33
+Namenode Created.
+33 SSD Datanodes Created.
+67 HDD Datanodes Created
+
+331 Watts of Power consumed for bringing up 100 Nodes
+15000 Watts of Power consumed for initial block distribution (First write)
+8910 Watts of Power consumed for initial Block access (First Read of hot data)
+28872 Watts of Power consumed for maintaining the infrastructure (Cluster in active state)
+18446 Watts of Power consumed when transferring data to cold zone
+3862 Watts of Power consumed for continued Block access (Regular reading of hot data)
+
+
+Total power consumed = 2638197
+END
+
+iteration : 34
+Namenode Created.
+34 SSD Datanodes Created.
+66 HDD Datanodes Created
+
+338 Watts of Power consumed for bringing up 100 Nodes
+15000 Watts of Power consumed for initial block distribution (First write)
+8280 Watts of Power consumed for initial Block access (First Read of hot data)
+29376 Watts of Power consumed for maintaining the infrastructure (Cluster in active state)
+18768 Watts of Power consumed when transferring data to cold zone
+3651 Watts of Power consumed for continued Block access (Regular reading of hot data)
+
+
+Total power consumed = 2713610
+END
+
+iteration : 35
+Namenode Created.
+35 SSD Datanodes Created.
+65 HDD Datanodes Created
+
+345 Watts of Power consumed for bringing up 100 Nodes
+15000 Watts of Power consumed for initial block distribution (First write)
+8400 Watts of Power consumed for initial Block access (First Read of hot data)
+29280 Watts of Power consumed for maintaining the infrastructure (Cluster in active state)
+18676 Watts of Power consumed when transferring data to cold zone
+3710 Watts of Power consumed for continued Block access (Regular reading of hot data)
+
+
+Total power consumed = 2789021
+END
+
+iteration : 36
+Namenode Created.
+36 SSD Datanodes Created.
+64 HDD Datanodes Created
+
+352 Watts of Power consumed for bringing up 100 Nodes
+15000 Watts of Power consumed for initial block distribution (First write)
+8640 Watts of Power consumed for initial Block access (First Read of hot data)
+29088 Watts of Power consumed for maintaining the infrastructure (Cluster in active state)
+18584 Watts of Power consumed when transferring data to cold zone
+3769 Watts of Power consumed for continued Block access (Regular reading of hot data)
+
+
+Total power consumed = 2864454
+END
+
+iteration : 37
+Namenode Created.
+37 SSD Datanodes Created.
+63 HDD Datanodes Created
+
+359 Watts of Power consumed for bringing up 100 Nodes
+15000 Watts of Power consumed for initial block distribution (First write)
+8880 Watts of Power consumed for initial Block access (First Read of hot data)
+28896 Watts of Power consumed for maintaining the infrastructure (Cluster in active state)
+18446 Watts of Power consumed when transferring data to cold zone
+3858 Watts of Power consumed for continued Block access (Regular reading of hot data)
+
+
+Total power consumed = 2939893
+END
+
+iteration : 38
+Namenode Created.
+38 SSD Datanodes Created.
+62 HDD Datanodes Created
+
+366 Watts of Power consumed for bringing up 100 Nodes
+15000 Watts of Power consumed for initial block distribution (First write)
+8520 Watts of Power consumed for initial Block access (First Read of hot data)
+29184 Watts of Power consumed for maintaining the infrastructure (Cluster in active state)
+18630 Watts of Power consumed when transferring data to cold zone
+3737 Watts of Power consumed for continued Block access (Regular reading of hot data)
+
+
+Total power consumed = 3015330
+END
+
+iteration : 39
+Namenode Created.
+39 SSD Datanodes Created.
+61 HDD Datanodes Created
+
+373 Watts of Power consumed for bringing up 100 Nodes
+15000 Watts of Power consumed for initial block distribution (First write)
+8190 Watts of Power consumed for initial Block access (First Read of hot data)
+29448 Watts of Power consumed for maintaining the infrastructure (Cluster in active state)
+18814 Watts of Power consumed when transferring data to cold zone
+3616 Watts of Power consumed for continued Block access (Regular reading of hot data)
+
+
+Total power consumed = 3090771
+END
+
+iteration : 40
+Namenode Created.
+40 SSD Datanodes Created.
+60 HDD Datanodes Created
+
+380 Watts of Power consumed for bringing up 100 Nodes
+15000 Watts of Power consumed for initial block distribution (First write)
+8400 Watts of Power consumed for initial Block access (First Read of hot data)
+29280 Watts of Power consumed for maintaining the infrastructure (Cluster in active state)
+18676 Watts of Power consumed when transferring data to cold zone
+3705 Watts of Power consumed for continued Block access (Regular reading of hot data)
+
+
+Total power consumed = 3166212
+END
+
+iteration : 41
+Namenode Created.
+41 SSD Datanodes Created.
+59 HDD Datanodes Created
+
+387 Watts of Power consumed for bringing up 100 Nodes
+15000 Watts of Power consumed for initial block distribution (First write)
+8610 Watts of Power consumed for initial Block access (First Read of hot data)
+29112 Watts of Power consumed for maintaining the infrastructure (Cluster in active state)
+18584 Watts of Power consumed when transferring data to cold zone
+3764 Watts of Power consumed for continued Block access (Regular reading of hot data)
+
+
+Total power consumed = 3241669
+END
+
+iteration : 42
+Namenode Created.
+42 SSD Datanodes Created.
+58 HDD Datanodes Created
+
+394 Watts of Power consumed for bringing up 100 Nodes
+15000 Watts of Power consumed for initial block distribution (First write)
+8820 Watts of Power consumed for initial Block access (First Read of hot data)
+28944 Watts of Power consumed for maintaining the infrastructure (Cluster in active state)
+18492 Watts of Power consumed when transferring data to cold zone
+3823 Watts of Power consumed for continued Block access (Regular reading of hot data)
+
+
+Total power consumed = 3317142
+END
+
+iteration : 43
+Namenode Created.
+43 SSD Datanodes Created.
+57 HDD Datanodes Created
+
+401 Watts of Power consumed for bringing up 100 Nodes
+15000 Watts of Power consumed for initial block distribution (First write)
+8880 Watts of Power consumed for initial Block access (First Read of hot data)
+28896 Watts of Power consumed for maintaining the infrastructure (Cluster in active state)
+18446 Watts of Power consumed when transferring data to cold zone
+3852 Watts of Power consumed for continued Block access (Regular reading of hot data)
+
+
+Total power consumed = 3392617
+END
+
+iteration : 44
+Namenode Created.
+44 SSD Datanodes Created.
+56 HDD Datanodes Created
+
+408 Watts of Power consumed for bringing up 100 Nodes
+15000 Watts of Power consumed for initial block distribution (First write)
+8040 Watts of Power consumed for initial Block access (First Read of hot data)
+29568 Watts of Power consumed for maintaining the infrastructure (Cluster in active state)
+18906 Watts of Power consumed when transferring data to cold zone
+3551 Watts of Power consumed for continued Block access (Regular reading of hot data)
+
+
+Total power consumed = 3468090
+END
+
+iteration : 45
+Namenode Created.
+45 SSD Datanodes Created.
+55 HDD Datanodes Created
+
+415 Watts of Power consumed for bringing up 100 Nodes
+15000 Watts of Power consumed for initial block distribution (First write)
+8100 Watts of Power consumed for initial Block access (First Read of hot data)
+29520 Watts of Power consumed for maintaining the infrastructure (Cluster in active state)
+18860 Watts of Power consumed when transferring data to cold zone
+3580 Watts of Power consumed for continued Block access (Regular reading of hot data)
+
+
+Total power consumed = 3543565
+END
+
+iteration : 46
+Namenode Created.
+46 SSD Datanodes Created.
+54 HDD Datanodes Created
+
+422 Watts of Power consumed for bringing up 100 Nodes
+15000 Watts of Power consumed for initial block distribution (First write)
+8280 Watts of Power consumed for initial Block access (First Read of hot data)
+29376 Watts of Power consumed for maintaining the infrastructure (Cluster in active state)
+18768 Watts of Power consumed when transferring data to cold zone
+3639 Watts of Power consumed for continued Block access (Regular reading of hot data)
+
+
+Total power consumed = 3619050
+END
+
+iteration : 47
+Namenode Created.
+47 SSD Datanodes Created.
+53 HDD Datanodes Created
+
+429 Watts of Power consumed for bringing up 100 Nodes
+15000 Watts of Power consumed for initial block distribution (First write)
+8460 Watts of Power consumed for initial Block access (First Read of hot data)
+29232 Watts of Power consumed for maintaining the infrastructure (Cluster in active state)
+18676 Watts of Power consumed when transferring data to cold zone
+3698 Watts of Power consumed for continued Block access (Regular reading of hot data)
+
+
+Total power consumed = 3694545
+END
+
+iteration : 48
+Namenode Created.
+48 SSD Datanodes Created.
+52 HDD Datanodes Created
+
+436 Watts of Power consumed for bringing up 100 Nodes
+15000 Watts of Power consumed for initial block distribution (First write)
+8640 Watts of Power consumed for initial Block access (First Read of hot data)
+29088 Watts of Power consumed for maintaining the infrastructure (Cluster in active state)
+18584 Watts of Power consumed when transferring data to cold zone
+3757 Watts of Power consumed for continued Block access (Regular reading of hot data)
+
+
+Total power consumed = 3770050
+END
+
+iteration : 49
+Namenode Created.
+49 SSD Datanodes Created.
+51 HDD Datanodes Created
+
+443 Watts of Power consumed for bringing up 100 Nodes
+15000 Watts of Power consumed for initial block distribution (First write)
+8820 Watts of Power consumed for initial Block access (First Read of hot data)
+28944 Watts of Power consumed for maintaining the infrastructure (Cluster in active state)
+18492 Watts of Power consumed when transferring data to cold zone
+3816 Watts of Power consumed for continued Block access (Regular reading of hot data)
+
+
+Total power consumed = 3845565
+END
+
+iteration : 50
+Namenode Created.
+50 SSD Datanodes Created.
+50 HDD Datanodes Created
+
+450 Watts of Power consumed for bringing up 100 Nodes
+15000 Watts of Power consumed for initial block distribution (First write)
+9000 Watts of Power consumed for initial Block access (First Read of hot data)
+28800 Watts of Power consumed for maintaining the infrastructure (Cluster in active state)
+18400 Watts of Power consumed when transferring data to cold zone
+3875 Watts of Power consumed for continued Block access (Regular reading of hot data)
+
+
+Total power consumed = 3921090
+END
+
+iteration : 51
+Namenode Created.
+51 SSD Datanodes Created.
+49 HDD Datanodes Created
+
+457 Watts of Power consumed for bringing up 100 Nodes
+15000 Watts of Power consumed for initial block distribution (First write)
+8280 Watts of Power consumed for initial Block access (First Read of hot data)
+29376 Watts of Power consumed for maintaining the infrastructure (Cluster in active state)
+18768 Watts of Power consumed when transferring data to cold zone
+3634 Watts of Power consumed for continued Block access (Regular reading of hot data)
+
+
+Total power consumed = 3996605
+END
+
+iteration : 52
+Namenode Created.
+52 SSD Datanodes Created.
+48 HDD Datanodes Created
+
+464 Watts of Power consumed for bringing up 100 Nodes
+15000 Watts of Power consumed for initial block distribution (First write)
+7800 Watts of Power consumed for initial Block access (First Read of hot data)
+29760 Watts of Power consumed for maintaining the infrastructure (Cluster in active state)
+18998 Watts of Power consumed when transferring data to cold zone
+3483 Watts of Power consumed for continued Block access (Regular reading of hot data)
+
+
+Total power consumed = 4072110
+END
+
+iteration : 53
+Namenode Created.
+53 SSD Datanodes Created.
+47 HDD Datanodes Created
+
+471 Watts of Power consumed for bringing up 100 Nodes
+15000 Watts of Power consumed for initial block distribution (First write)
+7950 Watts of Power consumed for initial Block access (First Read of hot data)
+29640 Watts of Power consumed for maintaining the infrastructure (Cluster in active state)
+18906 Watts of Power consumed when transferring data to cold zone
+3542 Watts of Power consumed for continued Block access (Regular reading of hot data)
+
+
+Total power consumed = 4147619
+END
+
+iteration : 54
+Namenode Created.
+54 SSD Datanodes Created.
+46 HDD Datanodes Created
+
+478 Watts of Power consumed for bringing up 100 Nodes
+15000 Watts of Power consumed for initial block distribution (First write)
+8100 Watts of Power consumed for initial Block access (First Read of hot data)
+29520 Watts of Power consumed for maintaining the infrastructure (Cluster in active state)
+18860 Watts of Power consumed when transferring data to cold zone
+3571 Watts of Power consumed for continued Block access (Regular reading of hot data)
+
+
+Total power consumed = 4223148
+END
+
+iteration : 55
+Namenode Created.
+55 SSD Datanodes Created.
+45 HDD Datanodes Created
+
+485 Watts of Power consumed for bringing up 100 Nodes
+15000 Watts of Power consumed for initial block distribution (First write)
+8250 Watts of Power consumed for initial Block access (First Read of hot data)
+29400 Watts of Power consumed for maintaining the infrastructure (Cluster in active state)
+18768 Watts of Power consumed when transferring data to cold zone
+3630 Watts of Power consumed for continued Block access (Regular reading of hot data)
+
+
+Total power consumed = 4298681
+END
+
+iteration : 56
+Namenode Created.
+56 SSD Datanodes Created.
+44 HDD Datanodes Created
+
+492 Watts of Power consumed for bringing up 100 Nodes
+15000 Watts of Power consumed for initial block distribution (First write)
+8400 Watts of Power consumed for initial Block access (First Read of hot data)
+29280 Watts of Power consumed for maintaining the infrastructure (Cluster in active state)
+18676 Watts of Power consumed when transferring data to cold zone
+3689 Watts of Power consumed for continued Block access (Regular reading of hot data)
+
+
+Total power consumed = 4374218
+END
+
+iteration : 57
+Namenode Created.
+57 SSD Datanodes Created.
+43 HDD Datanodes Created
+
+499 Watts of Power consumed for bringing up 100 Nodes
+15000 Watts of Power consumed for initial block distribution (First write)
+8550 Watts of Power consumed for initial Block access (First Read of hot data)
+29160 Watts of Power consumed for maintaining the infrastructure (Cluster in active state)
+18630 Watts of Power consumed when transferring data to cold zone
+3718 Watts of Power consumed for continued Block access (Regular reading of hot data)
+
+
+Total power consumed = 4449775
+END
+
+iteration : 58
+Namenode Created.
+58 SSD Datanodes Created.
+42 HDD Datanodes Created
+
+506 Watts of Power consumed for bringing up 100 Nodes
+15000 Watts of Power consumed for initial block distribution (First write)
+8700 Watts of Power consumed for initial Block access (First Read of hot data)
+29040 Watts of Power consumed for maintaining the infrastructure (Cluster in active state)
+18538 Watts of Power consumed when transferring data to cold zone
+3777 Watts of Power consumed for continued Block access (Regular reading of hot data)
+
+
+Total power consumed = 4525336
+END
+
+iteration : 59
+Namenode Created.
+59 SSD Datanodes Created.
+41 HDD Datanodes Created
+
+513 Watts of Power consumed for bringing up 100 Nodes
+15000 Watts of Power consumed for initial block distribution (First write)
+8850 Watts of Power consumed for initial Block access (First Read of hot data)
+28920 Watts of Power consumed for maintaining the infrastructure (Cluster in active state)
+18446 Watts of Power consumed when transferring data to cold zone
+3836 Watts of Power consumed for continued Block access (Regular reading of hot data)
+
+
+Total power consumed = 4600901
+END
+
+iteration : 60
+Namenode Created.
+60 SSD Datanodes Created.
+40 HDD Datanodes Created
+
+520 Watts of Power consumed for bringing up 100 Nodes
+15000 Watts of Power consumed for initial block distribution (First write)
+9000 Watts of Power consumed for initial Block access (First Read of hot data)
+28800 Watts of Power consumed for maintaining the infrastructure (Cluster in active state)
+18400 Watts of Power consumed when transferring data to cold zone
+3865 Watts of Power consumed for continued Block access (Regular reading of hot data)
+
+
+Total power consumed = 4676486
+END
+
+iteration : 61
+Namenode Created.
+61 SSD Datanodes Created.
+39 HDD Datanodes Created
+
+527 Watts of Power consumed for bringing up 100 Nodes
+15000 Watts of Power consumed for initial block distribution (First write)
+8400 Watts of Power consumed for initial Block access (First Read of hot data)
+29280 Watts of Power consumed for maintaining the infrastructure (Cluster in active state)
+18722 Watts of Power consumed when transferring data to cold zone
+3654 Watts of Power consumed for continued Block access (Regular reading of hot data)
+
+
+Total power consumed = 4752069
+END
+
+iteration : 62
+Namenode Created.
+62 SSD Datanodes Created.
+38 HDD Datanodes Created
+
+534 Watts of Power consumed for bringing up 100 Nodes
+15000 Watts of Power consumed for initial block distribution (First write)
+7800 Watts of Power consumed for initial Block access (First Read of hot data)
+29760 Watts of Power consumed for maintaining the infrastructure (Cluster in active state)
+18998 Watts of Power consumed when transferring data to cold zone
+3473 Watts of Power consumed for continued Block access (Regular reading of hot data)
+
+
+Total power consumed = 4827634
+END
+
+iteration : 63
+Namenode Created.
+63 SSD Datanodes Created.
+37 HDD Datanodes Created
+
+541 Watts of Power consumed for bringing up 100 Nodes
+15000 Watts of Power consumed for initial block distribution (First write)
+7560 Watts of Power consumed for initial Block access (First Read of hot data)
+29952 Watts of Power consumed for maintaining the infrastructure (Cluster in active state)
+19136 Watts of Power consumed when transferring data to cold zone
+3382 Watts of Power consumed for continued Block access (Regular reading of hot data)
+
+
+Total power consumed = 4903205
+END
+
+iteration : 64
+Namenode Created.
+64 SSD Datanodes Created.
+36 HDD Datanodes Created
+
+548 Watts of Power consumed for bringing up 100 Nodes
+15000 Watts of Power consumed for initial block distribution (First write)
+7680 Watts of Power consumed for initial Block access (First Read of hot data)
+29856 Watts of Power consumed for maintaining the infrastructure (Cluster in active state)
+19044 Watts of Power consumed when transferring data to cold zone
+3441 Watts of Power consumed for continued Block access (Regular reading of hot data)
+
+
+Total power consumed = 4978774
+END
+
+iteration : 65
+Namenode Created.
+65 SSD Datanodes Created.
+35 HDD Datanodes Created
+
+555 Watts of Power consumed for bringing up 100 Nodes
+15000 Watts of Power consumed for initial block distribution (First write)
+7800 Watts of Power consumed for initial Block access (First Read of hot data)
+29760 Watts of Power consumed for maintaining the infrastructure (Cluster in active state)
+18998 Watts of Power consumed when transferring data to cold zone
+3470 Watts of Power consumed for continued Block access (Regular reading of hot data)
+
+
+Total power consumed = 5054357
+END
+
+iteration : 66
+Namenode Created.
+66 SSD Datanodes Created.
+34 HDD Datanodes Created
+
+562 Watts of Power consumed for bringing up 100 Nodes
+15000 Watts of Power consumed for initial block distribution (First write)
+7920 Watts of Power consumed for initial Block access (First Read of hot data)
+29664 Watts of Power consumed for maintaining the infrastructure (Cluster in active state)
+18952 Watts of Power consumed when transferring data to cold zone
+3499 Watts of Power consumed for continued Block access (Regular reading of hot data)
+
+
+Total power consumed = 5129954
+END
+
+iteration : 67
+Namenode Created.
+67 SSD Datanodes Created.
+33 HDD Datanodes Created
+
+569 Watts of Power consumed for bringing up 100 Nodes
+15000 Watts of Power consumed for initial block distribution (First write)
+8040 Watts of Power consumed for initial Block access (First Read of hot data)
+29568 Watts of Power consumed for maintaining the infrastructure (Cluster in active state)
+18860 Watts of Power consumed when transferring data to cold zone
+3558 Watts of Power consumed for continued Block access (Regular reading of hot data)
+
+
+Total power consumed = 5205549
+END
+
+iteration : 68
+Namenode Created.
+68 SSD Datanodes Created.
+32 HDD Datanodes Created
+
+576 Watts of Power consumed for bringing up 100 Nodes
+15000 Watts of Power consumed for initial block distribution (First write)
+8160 Watts of Power consumed for initial Block access (First Read of hot data)
+29472 Watts of Power consumed for maintaining the infrastructure (Cluster in active state)
+18814 Watts of Power consumed when transferring data to cold zone
+3587 Watts of Power consumed for continued Block access (Regular reading of hot data)
+
+
+Total power consumed = 5281158
+END
+
+iteration : 69
+Namenode Created.
+69 SSD Datanodes Created.
+31 HDD Datanodes Created
+
+583 Watts of Power consumed for bringing up 100 Nodes
+15000 Watts of Power consumed for initial block distribution (First write)
+8280 Watts of Power consumed for initial Block access (First Read of hot data)
+29376 Watts of Power consumed for maintaining the infrastructure (Cluster in active state)
+18768 Watts of Power consumed when transferring data to cold zone
+3616 Watts of Power consumed for continued Block access (Regular reading of hot data)
+
+
+Total power consumed = 5356781
+END
+
+iteration : 70
+Namenode Created.
+70 SSD Datanodes Created.
+30 HDD Datanodes Created
+
+590 Watts of Power consumed for bringing up 100 Nodes
+15000 Watts of Power consumed for initial block distribution (First write)
+8400 Watts of Power consumed for initial Block access (First Read of hot data)
+29280 Watts of Power consumed for maintaining the infrastructure (Cluster in active state)
+18676 Watts of Power consumed when transferring data to cold zone
+3675 Watts of Power consumed for continued Block access (Regular reading of hot data)
+
+
+Total power consumed = 5432402
+END
+
+iteration : 71
+Namenode Created.
+71 SSD Datanodes Created.
+29 HDD Datanodes Created
+
+597 Watts of Power consumed for bringing up 100 Nodes
+15000 Watts of Power consumed for initial block distribution (First write)
+8520 Watts of Power consumed for initial Block access (First Read of hot data)
+29184 Watts of Power consumed for maintaining the infrastructure (Cluster in active state)
+18630 Watts of Power consumed when transferring data to cold zone
+3704 Watts of Power consumed for continued Block access (Regular reading of hot data)
+
+
+Total power consumed = 5508037
+END
+
+iteration : 72
+Namenode Created.
+72 SSD Datanodes Created.
+28 HDD Datanodes Created
+
+604 Watts of Power consumed for bringing up 100 Nodes
+15000 Watts of Power consumed for initial block distribution (First write)
+8640 Watts of Power consumed for initial Block access (First Read of hot data)
+29088 Watts of Power consumed for maintaining the infrastructure (Cluster in active state)
+18584 Watts of Power consumed when transferring data to cold zone
+3733 Watts of Power consumed for continued Block access (Regular reading of hot data)
+
+
+Total power consumed = 5583686
+END
+
+iteration : 73
+Namenode Created.
+73 SSD Datanodes Created.
+27 HDD Datanodes Created
+
+611 Watts of Power consumed for bringing up 100 Nodes
+15000 Watts of Power consumed for initial block distribution (First write)
+8760 Watts of Power consumed for initial Block access (First Read of hot data)
+28992 Watts of Power consumed for maintaining the infrastructure (Cluster in active state)
+18492 Watts of Power consumed when transferring data to cold zone
+3792 Watts of Power consumed for continued Block access (Regular reading of hot data)
+
+
+Total power consumed = 5659333
+END
+
+iteration : 74
+Namenode Created.
+74 SSD Datanodes Created.
+26 HDD Datanodes Created
+
+618 Watts of Power consumed for bringing up 100 Nodes
+15000 Watts of Power consumed for initial block distribution (First write)
+8880 Watts of Power consumed for initial Block access (First Read of hot data)
+28896 Watts of Power consumed for maintaining the infrastructure (Cluster in active state)
+18446 Watts of Power consumed when transferring data to cold zone
+3821 Watts of Power consumed for continued Block access (Regular reading of hot data)
+
+
+Total power consumed = 5734994
+END
+
+iteration : 75
+Namenode Created.
+75 SSD Datanodes Created.
+25 HDD Datanodes Created
+
+625 Watts of Power consumed for bringing up 100 Nodes
+15000 Watts of Power consumed for initial block distribution (First write)
+9000 Watts of Power consumed for initial Block access (First Read of hot data)
+28800 Watts of Power consumed for maintaining the infrastructure (Cluster in active state)
+18400 Watts of Power consumed when transferring data to cold zone
+3850 Watts of Power consumed for continued Block access (Regular reading of hot data)
+
+
+Total power consumed = 5810669
+END
+
+iteration : 76
+Namenode Created.
+76 SSD Datanodes Created.
+24 HDD Datanodes Created
+
+632 Watts of Power consumed for bringing up 100 Nodes
+15000 Watts of Power consumed for initial block distribution (First write)
+8520 Watts of Power consumed for initial Block access (First Read of hot data)
+29184 Watts of Power consumed for maintaining the infrastructure (Cluster in active state)
+18630 Watts of Power consumed when transferring data to cold zone
+3699 Watts of Power consumed for continued Block access (Regular reading of hot data)
+
+
+Total power consumed = 5886334
+END
+
+iteration : 77
+Namenode Created.
+77 SSD Datanodes Created.
+23 HDD Datanodes Created
+
+639 Watts of Power consumed for bringing up 100 Nodes
+15000 Watts of Power consumed for initial block distribution (First write)
+8040 Watts of Power consumed for initial Block access (First Read of hot data)
+29568 Watts of Power consumed for maintaining the infrastructure (Cluster in active state)
+18906 Watts of Power consumed when transferring data to cold zone
+3518 Watts of Power consumed for continued Block access (Regular reading of hot data)
+
+
+Total power consumed = 5962005
+END
+
+iteration : 78
+Namenode Created.
+78 SSD Datanodes Created.
+22 HDD Datanodes Created
+
+646 Watts of Power consumed for bringing up 100 Nodes
+15000 Watts of Power consumed for initial block distribution (First write)
+7560 Watts of Power consumed for initial Block access (First Read of hot data)
+29952 Watts of Power consumed for maintaining the infrastructure (Cluster in active state)
+19136 Watts of Power consumed when transferring data to cold zone
+3367 Watts of Power consumed for continued Block access (Regular reading of hot data)
+
+
+Total power consumed = 6037666
+END
+
+iteration : 79
+Namenode Created.
+79 SSD Datanodes Created.
+21 HDD Datanodes Created
+
+653 Watts of Power consumed for bringing up 100 Nodes
+15000 Watts of Power consumed for initial block distribution (First write)
+7110 Watts of Power consumed for initial Block access (First Read of hot data)
+30312 Watts of Power consumed for maintaining the infrastructure (Cluster in active state)
+19366 Watts of Power consumed when transferring data to cold zone
+3216 Watts of Power consumed for continued Block access (Regular reading of hot data)
+
+
+Total power consumed = 6113323
+END
+
+iteration : 80
+Namenode Created.
+80 SSD Datanodes Created.
+20 HDD Datanodes Created
+
+660 Watts of Power consumed for bringing up 100 Nodes
+15000 Watts of Power consumed for initial block distribution (First write)
+7200 Watts of Power consumed for initial Block access (First Read of hot data)
+30240 Watts of Power consumed for maintaining the infrastructure (Cluster in active state)
+19320 Watts of Power consumed when transferring data to cold zone
+3245 Watts of Power consumed for continued Block access (Regular reading of hot data)
+
+
+Total power consumed = 6188988
+END
+
+iteration : 81
+Namenode Created.
+81 SSD Datanodes Created.
+19 HDD Datanodes Created
+
+667 Watts of Power consumed for bringing up 100 Nodes
+15000 Watts of Power consumed for initial block distribution (First write)
+7290 Watts of Power consumed for initial Block access (First Read of hot data)
+30168 Watts of Power consumed for maintaining the infrastructure (Cluster in active state)
+19274 Watts of Power consumed when transferring data to cold zone
+3274 Watts of Power consumed for continued Block access (Regular reading of hot data)
+
+
+Total power consumed = 6264661
+END
+
+iteration : 82
+Namenode Created.
+82 SSD Datanodes Created.
+18 HDD Datanodes Created
+
+674 Watts of Power consumed for bringing up 100 Nodes
+15000 Watts of Power consumed for initial block distribution (First write)
+7380 Watts of Power consumed for initial Block access (First Read of hot data)
+30096 Watts of Power consumed for maintaining the infrastructure (Cluster in active state)
+19228 Watts of Power consumed when transferring data to cold zone
+3303 Watts of Power consumed for continued Block access (Regular reading of hot data)
+
+
+Total power consumed = 6340342
+END
+
+iteration : 83
+Namenode Created.
+83 SSD Datanodes Created.
+17 HDD Datanodes Created
+
+681 Watts of Power consumed for bringing up 100 Nodes
+15000 Watts of Power consumed for initial block distribution (First write)
+7470 Watts of Power consumed for initial Block access (First Read of hot data)
+30024 Watts of Power consumed for maintaining the infrastructure (Cluster in active state)
+19182 Watts of Power consumed when transferring data to cold zone
+3332 Watts of Power consumed for continued Block access (Regular reading of hot data)
+
+
+Total power consumed = 6416031
+END
+
+iteration : 84
+Namenode Created.
+84 SSD Datanodes Created.
+16 HDD Datanodes Created
+
+688 Watts of Power consumed for bringing up 100 Nodes
+15000 Watts of Power consumed for initial block distribution (First write)
+7560 Watts of Power consumed for initial Block access (First Read of hot data)
+29952 Watts of Power consumed for maintaining the infrastructure (Cluster in active state)
+19136 Watts of Power consumed when transferring data to cold zone
+3361 Watts of Power consumed for continued Block access (Regular reading of hot data)
+
+
+Total power consumed = 6491728
+END
+
+iteration : 85
+Namenode Created.
+85 SSD Datanodes Created.
+15 HDD Datanodes Created
+
+695 Watts of Power consumed for bringing up 100 Nodes
+15000 Watts of Power consumed for initial block distribution (First write)
+7650 Watts of Power consumed for initial Block access (First Read of hot data)
+29880 Watts of Power consumed for maintaining the infrastructure (Cluster in active state)
+19090 Watts of Power consumed when transferring data to cold zone
+3390 Watts of Power consumed for continued Block access (Regular reading of hot data)
+
+
+Total power consumed = 6567433
+END
+
+iteration : 86
+Namenode Created.
+86 SSD Datanodes Created.
+14 HDD Datanodes Created
+
+702 Watts of Power consumed for bringing up 100 Nodes
+15000 Watts of Power consumed for initial block distribution (First write)
+7740 Watts of Power consumed for initial Block access (First Read of hot data)
+29808 Watts of Power consumed for maintaining the infrastructure (Cluster in active state)
+19044 Watts of Power consumed when transferring data to cold zone
+3419 Watts of Power consumed for continued Block access (Regular reading of hot data)
+
+
+Total power consumed = 6643146
+END
+
+iteration : 87
+Namenode Created.
+87 SSD Datanodes Created.
+13 HDD Datanodes Created
+
+709 Watts of Power consumed for bringing up 100 Nodes
+15000 Watts of Power consumed for initial block distribution (First write)
+7830 Watts of Power consumed for initial Block access (First Read of hot data)
+29736 Watts of Power consumed for maintaining the infrastructure (Cluster in active state)
+18998 Watts of Power consumed when transferring data to cold zone
+3448 Watts of Power consumed for continued Block access (Regular reading of hot data)
+
+
+Total power consumed = 6718867
+END
+
+iteration : 88
+Namenode Created.
+88 SSD Datanodes Created.
+12 HDD Datanodes Created
+
+716 Watts of Power consumed for bringing up 100 Nodes
+15000 Watts of Power consumed for initial block distribution (First write)
+7920 Watts of Power consumed for initial Block access (First Read of hot data)
+29664 Watts of Power consumed for maintaining the infrastructure (Cluster in active state)
+18952 Watts of Power consumed when transferring data to cold zone
+3477 Watts of Power consumed for continued Block access (Regular reading of hot data)
+
+
+Total power consumed = 6794596
+END
+
+iteration : 89
+Namenode Created.
+89 SSD Datanodes Created.
+11 HDD Datanodes Created
+
+723 Watts of Power consumed for bringing up 100 Nodes
+15000 Watts of Power consumed for initial block distribution (First write)
+8010 Watts of Power consumed for initial Block access (First Read of hot data)
+29592 Watts of Power consumed for maintaining the infrastructure (Cluster in active state)
+18906 Watts of Power consumed when transferring data to cold zone
+3506 Watts of Power consumed for continued Block access (Regular reading of hot data)
+
+
+Total power consumed = 6870333
+END
+
+iteration : 90
+Namenode Created.
+90 SSD Datanodes Created.
+10 HDD Datanodes Created
+
+730 Watts of Power consumed for bringing up 100 Nodes
+15000 Watts of Power consumed for initial block distribution (First write)
+8100 Watts of Power consumed for initial Block access (First Read of hot data)
+29520 Watts of Power consumed for maintaining the infrastructure (Cluster in active state)
+18860 Watts of Power consumed when transferring data to cold zone
+3535 Watts of Power consumed for continued Block access (Regular reading of hot data)
+
+
+Total power consumed = 6946078
+END
+
+iteration : 91
+Namenode Created.
+91 SSD Datanodes Created.
+9 HDD Datanodes Created
+
+737 Watts of Power consumed for bringing up 100 Nodes
+15000 Watts of Power consumed for initial block distribution (First write)
+8190 Watts of Power consumed for initial Block access (First Read of hot data)
+29448 Watts of Power consumed for maintaining the infrastructure (Cluster in active state)
+18814 Watts of Power consumed when transferring data to cold zone
+3564 Watts of Power consumed for continued Block access (Regular reading of hot data)
+
+
+Total power consumed = 7021831
+END
+
+iteration : 92
+Namenode Created.
+92 SSD Datanodes Created.
+8 HDD Datanodes Created
+
+744 Watts of Power consumed for bringing up 100 Nodes
+15000 Watts of Power consumed for initial block distribution (First write)
+8280 Watts of Power consumed for initial Block access (First Read of hot data)
+29376 Watts of Power consumed for maintaining the infrastructure (Cluster in active state)
+18768 Watts of Power consumed when transferring data to cold zone
+3593 Watts of Power consumed for continued Block access (Regular reading of hot data)
+
+
+Total power consumed = 7097592
+END
+
+iteration : 93
+Namenode Created.
+93 SSD Datanodes Created.
+7 HDD Datanodes Created
+
+751 Watts of Power consumed for bringing up 100 Nodes
+15000 Watts of Power consumed for initial block distribution (First write)
+8370 Watts of Power consumed for initial Block access (First Read of hot data)
+29304 Watts of Power consumed for maintaining the infrastructure (Cluster in active state)
+18722 Watts of Power consumed when transferring data to cold zone
+3622 Watts of Power consumed for continued Block access (Regular reading of hot data)
+
+
+Total power consumed = 7173361
+END
+
+iteration : 94
+Namenode Created.
+94 SSD Datanodes Created.
+6 HDD Datanodes Created
+
+758 Watts of Power consumed for bringing up 100 Nodes
+15000 Watts of Power consumed for initial block distribution (First write)
+8460 Watts of Power consumed for initial Block access (First Read of hot data)
+29232 Watts of Power consumed for maintaining the infrastructure (Cluster in active state)
+18676 Watts of Power consumed when transferring data to cold zone
+3651 Watts of Power consumed for continued Block access (Regular reading of hot data)
+
+
+Total power consumed = 7249138
+END
+
+iteration : 95
+Namenode Created.
+95 SSD Datanodes Created.
+5 HDD Datanodes Created
+
+765 Watts of Power consumed for bringing up 100 Nodes
+15000 Watts of Power consumed for initial block distribution (First write)
+8550 Watts of Power consumed for initial Block access (First Read of hot data)
+29160 Watts of Power consumed for maintaining the infrastructure (Cluster in active state)
+18630 Watts of Power consumed when transferring data to cold zone
+3680 Watts of Power consumed for continued Block access (Regular reading of hot data)
+
+
+Total power consumed = 7324923
+END
+
+iteration : 96
+Namenode Created.
+96 SSD Datanodes Created.
+4 HDD Datanodes Created
+
+772 Watts of Power consumed for bringing up 100 Nodes
+15000 Watts of Power consumed for initial block distribution (First write)
+8640 Watts of Power consumed for initial Block access (First Read of hot data)
+29088 Watts of Power consumed for maintaining the infrastructure (Cluster in active state)
+18584 Watts of Power consumed when transferring data to cold zone
+3709 Watts of Power consumed for continued Block access (Regular reading of hot data)
+
+
+Total power consumed = 7400716
+END
+
+iteration : 97
+Namenode Created.
+97 SSD Datanodes Created.
+3 HDD Datanodes Created
+
+779 Watts of Power consumed for bringing up 100 Nodes
+15000 Watts of Power consumed for initial block distribution (First write)
+8730 Watts of Power consumed for initial Block access (First Read of hot data)
+29016 Watts of Power consumed for maintaining the infrastructure (Cluster in active state)
+18538 Watts of Power consumed when transferring data to cold zone
+3738 Watts of Power consumed for continued Block access (Regular reading of hot data)
+
+
+Total power consumed = 7476517
+END
+
+iteration : 98
+Namenode Created.
+98 SSD Datanodes Created.
+2 HDD Datanodes Created
+
+786 Watts of Power consumed for bringing up 100 Nodes
+15000 Watts of Power consumed for initial block distribution (First write)
+8820 Watts of Power consumed for initial Block access (First Read of hot data)
+28944 Watts of Power consumed for maintaining the infrastructure (Cluster in active state)
+18492 Watts of Power consumed when transferring data to cold zone
+3767 Watts of Power consumed for continued Block access (Regular reading of hot data)
+
+
+Total power consumed = 7552326
+END
+
+iteration : 99
+Namenode Created.
+99 SSD Datanodes Created.
+1 HDD Datanodes Created
+
+793 Watts of Power consumed for bringing up 100 Nodes
+15000 Watts of Power consumed for initial block distribution (First write)
+8910 Watts of Power consumed for initial Block access (First Read of hot data)
+28872 Watts of Power consumed for maintaining the infrastructure (Cluster in active state)
+18446 Watts of Power consumed when transferring data to cold zone
+3796 Watts of Power consumed for continued Block access (Regular reading of hot data)
+
+
+Total power consumed = 7628143
+END
+
