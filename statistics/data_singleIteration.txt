@@ -1,0 +1,50 @@
+0 SSD Datanodes Created.
+100 HDD Datanodes Created.
+
+
+700 Watts of Power consumed for bringing up 100 Nodes
+345000 Watts of Power consumed for initial block distribution (First write)
+135000 Watts of Power consumed for initial Block access (First Read of data)
+466 Watts of Power consumed for maintaining the infrastructure (Cluster in active state)
+0 Watts of Power consumed when transferring data to cold zone
+120000 Watts of Power consumed for block balancing
+466 Watts of Power consumed for maintaining the infrastructure (Cluster in active state)
+230000 Watts of Power consumed for continued Block access (Regular reading of data)
+
+
+Total power consumed = 831632
+
+
+-----------------------------------------------------------------------------
+50 SSD Datanodes Created.
+50 HDD Datanodes Created.
+38 SSD Datanodes Active.
+
+562 Watts of Power consumed for bringing up 100 Nodes
+150000 Watts of Power consumed for initial block distribution (First write)
+44916 Watts of Power consumed for initial Block access (First Read of data)
+416 Watts of Power consumed for maintaining the infrastructure (Cluster in active state)
+115184 Watts of Power consumed when transferring data to cold zone
+29952 Watts of Power consumed for block balancing
+297 Watts of Power consumed for maintaining the infrastructure (Cluster in active state)
+82009 Watts of Power consumed for continued Block access (Regular reading of data)
+
+
+Total power consumed = 423336
+
+
+------------------------------------------------------------------------------
+100 SSD Datanodes Created.
+0 HDD Datanodes Created.
+38 SSD Datanodes Active.
+
+462 Watts of Power consumed for bringing up 100 Nodes
+150000 Watts of Power consumed for initial block distribution (First write)
+44916 Watts of Power consumed for initial Block access (First Read of data)
+366 Watts of Power consumed for maintaining the infrastructure (Cluster in active state)
+60000 Watts of Power consumed for block balancing
+373 Watts of Power consumed for maintaining the infrastructure (Cluster in active state)
+150061 Watts of Power consumed for continued Block access (Regular reading of data)
+
+
+Total power consumed = 406178
