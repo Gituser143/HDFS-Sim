@@ -1,3 +1,17 @@
+iteration : 0
+700 Watts of Power consumed for bringing up 100 Nodes
+345000 Watts of Power consumed for initial block distribution (First write)
+135000 Watts of Power consumed for initial Block access (First Read of data)
+235 Watts of Power consumed for maintaining the infrastructure (Cluster in active state)
+0 Watts of Power consumed when transferring data to cold zone
+120000 Watts of Power consumed for block balancing
+235 Watts of Power consumed for maintaining the infrastructure (Cluster in active state)
+230000 Watts of Power consumed for continued Block access (Regular reading of data)
+
+
+Total power consumed = 831170
+END
+
 iteration : 5
 Namenode Created.
 5 SSD Datanodes Created.
