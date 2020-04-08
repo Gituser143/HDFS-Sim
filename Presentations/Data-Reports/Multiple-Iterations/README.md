@@ -4,6 +4,28 @@ import matplotlib.pyplot as plt
 
 
 ```python
+with open("Data/varying_hotZone.txt") as f:
+    data = f.read()
+temp = data.split('\n')
+temp = temp[:len(temp) - 1:]
+y_axis_varying_hotZone = [int(x) for x in temp]
+x_axis_varying_hotZone = [x for x in range(0,101)]
+```
+
+
+```python
+plt.rcParams['figure.figsize'] = (15,15)
+plt.plot(x_axis_varying_hotZone, y_axis_varying_hotZone)
+plt.xlabel("Percentage of hot nodes in the cluster")
+plt.ylabel("Energy used in Watts")
+plt.title("Energy v/s Hot Zone percentage")
+plt.show()
+```
+
+
+![png](output_16_0.png)
+
+```python
 with open("Data/blocks_0SSD.txt") as f:
     data = f.read()
 temp = data.split('\n')
@@ -129,25 +151,4 @@ For every added node, 200 new blocks are initialised.
 **The dips are because blocks are able to fit perfectly into the number of active nodes. The active nodes are utilized fully**
 
 
-```python
-with open("Data/varying_hotZone.txt") as f:
-    data = f.read()
-temp = data.split('\n')
-temp = temp[:len(temp) - 1:]
-y_axis_varying_hotZone = [int(x) for x in temp]
-x_axis_varying_hotZone = [x for x in range(0,101)]
-```
-
-
-```python
-plt.rcParams['figure.figsize'] = (15,15)
-plt.plot(x_axis_varying_hotZone, y_axis_varying_hotZone)
-plt.xlabel("Percentage of hot nodes in the cluster")
-plt.ylabel("Energy used in Watts")
-plt.title("Energy v/s Hot Zone percentage")
-plt.show()
-```
-
-
-![png](output_16_0.png)
 
