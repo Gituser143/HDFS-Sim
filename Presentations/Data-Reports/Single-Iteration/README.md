@@ -13,8 +13,8 @@ Namenode Created.
 120000 Watts of Power consumed for block balancing  
 235 Watts of Power consumed for maintaining the infrastructure (Cluster in active state)  
 230000 Watts of Power consumed for continued Block access (Regular reading of data)  
-  
-  
+
+
 Total power consumed = 750170  
 
 30% SSD
@@ -23,7 +23,7 @@ Namenode Created.
 30 SSD Datanodes Created.  
 70 HDD Datanodes Created.  
 5 SSD Datanodes Active.  
-  
+
 635 Watts of Power consumed for bringing up 100 Nodes  
 150000 Watts of Power consumed for initial block distribution (First write)  
 18000 Watts of Power consumed for initial Block access (First Read of data)  
@@ -32,8 +32,8 @@ Namenode Created.
 12000 Watts of Power consumed for block balancing  
 191 Watts of Power consumed for maintaining the infrastructure (Cluster in active state)  
 37167 Watts of Power consumed for continued Block access (Regular reading of data)  
-  
-  
+
+
 Total power consumed = 402198  
 
 50% SSD
@@ -42,7 +42,7 @@ Namenode Created.
 50 SSD Datanodes Created.  
 50 HDD Datanodes Created.  
 5 SSD Datanodes Active.  
-  
+
 595 Watts of Power consumed for bringing up 100 Nodes  
 150000 Watts of Power consumed for initial block distribution (First write)  
 18000 Watts of Power consumed for initial Block access (First Read of data)  
@@ -51,8 +51,8 @@ Namenode Created.
 12000 Watts of Power consumed for block balancing  
 171 Watts of Power consumed for maintaining the infrastructure (Cluster in active state)  
 37147 Watts of Power consumed for continued Block access (Regular reading of data)  
-  
-  
+
+
 Total power consumed = 402098  
 
 100% SSD
@@ -61,7 +61,7 @@ Namenode Created.
 100 SSD Datanodes Created.  
 0 HDD Datanodes Created.  
 5 SSD Datanodes Active.  
-  
+
 495 Watts of Power consumed for bringing up 100 Nodes  
 150000 Watts of Power consumed for initial block distribution (First write)  
 18000 Watts of Power consumed for initial Block access (First Read of data)  
@@ -69,8 +69,8 @@ Namenode Created.
 60000 Watts of Power consumed for block balancing  
 142 Watts of Power consumed for maintaining the infrastructure (Cluster in active state)  
 150094 Watts of Power consumed for continued Block access (Regular reading of data)  
-  
-  
+
+
 Total power consumed = 378866  
 
 
@@ -117,7 +117,7 @@ def autolabel(rects):
         height = rect.get_height()
         ax.text(rect.get_x() + rect.get_width()/2., 1.01*height + heights[i],'%f' % int(height),ha='center', va='bottom')
         i += 1
-        
+
 ```
 
 
@@ -224,4 +224,4 @@ plt.show()
 ```
 
 
-![png](output_12_0.png)
+![png](Total-Power-Consumtion.png)
