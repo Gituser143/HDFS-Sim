@@ -7,7 +7,11 @@ The approach to saving energy is to split the cluster into two “Zones”, a �
 
 TBA
 
-* Describe SSD, HDD power efficiencies and modes in detail(Move to another heading?)
+* Mention apache hadoop and hdfs
+* Delve deeper into the project's purpose, following on from the abstract
+* Basically put stuff here which are prereqs to understand the paper too
+* Describe SSD, HDD power efficiencies and modes in detail(Move to another heading? could be said to various entries in intro)
+
 
 ## Hybrid multi-zone layout
 
@@ -22,7 +26,7 @@ TBA
 TBA 
 
 
-* Include basic working of the simulator abstracted to a certain extent.
+* Include basic working of the simulator abstracted to a certain extent (should be relevant to the point of the paper)
 * Include various modifiable and relevant parameters of the simulator, link it with the previous point
 * Include how power is calculated internally for a cluster run.
 
@@ -30,9 +34,10 @@ TBA
 
 TBA
 
-
+* Discuss block placement policies
 * Transfer with transition node
 * Transfer without transition node
+* Add some math stuff here for extra confusement
   
 ## Evaluation Results
 
@@ -40,6 +45,7 @@ TBA
 
 
 * Would contain statistical data and its pictorial representations
+* Add comparisions to normal vs our method (important)
 
 ## Conclusion and Future Work 
 
