@@ -7,19 +7,43 @@ The approach to saving energy is to split the cluster into two “Zones”, a �
 
 TBA
 
+* Describe SSD, HDD power efficiencies and modes in detail(Move to another heading?)
+
+## Hybrid multi-zone layout
+
+TBA
+
+
+* Describe the cluster layout in detail.
+* Describe hot zone, cold zone,etc
+
+## Simulator details
+
+TBA 
+
+
+* Include basic working of the simulator abstracted to a certain extent.
+* Include various modifiable and relevant parameters of the simulator, link it with the previous point
+* Include how power is calculated internally for a cluster run.
 
 ## Implementation details(Algorithm)
+
+TBA
+
 
 * Transfer with transition node
 * Transfer without transition node
   
-## Results
+## Evaluation Results
+
+TBA
+
 
 * Would contain statistical data and its pictorial representations
 
 ## Conclusion and Future Work 
 
-
+TBA
 
 
 ## References
