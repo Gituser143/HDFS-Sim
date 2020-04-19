@@ -50,12 +50,6 @@ Evaluation Results
 
 * Transfer with transition node
 * Transfer without transition node
-
-Evaluation Results
-===================
-
-TBA
-
 * Would contain statistical data and its pictorial representations
 * Add comparisions to normal vs our method (important)
 
