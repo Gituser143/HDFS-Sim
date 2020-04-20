@@ -1,0 +1,28 @@
+Cloud computing has gained rapid popularity from quite some time and its usage has benn quadrupled in last 4 years  According to a research by Nasuni in 2013 there is over 1 Exabyte or 1024 Petabytes of data of data stored in the cloud, and now  Google Cloud Storge alone has about 30 Exabytes of data and While there exists even bigger Gaints in the industry like the Amazon Web Services (AWS) , Microsoft Azure ... <><>><>< 
+
+Data-inten-sive computing needs include advertising optimizations, user-
+interest predictions, mail anti-spam, data analytics and de-
+riving search rankings. With the increase in the sheer vol-
+ume of the data that needs to be processed, storage and
+server demands of computing workloads are on a rapid in-
+crease.
+<><><
+Most enterprises today are focusing their attention on energy efficient
+computing, motivated by high operational costs for their large scale clus-
+ters and warehouses. This power related cost includes investment, operating
+expenses, cooling costs and environmental impacts.
+
+There is significant amount of research literature about
+datacenter energy management. A large number of these
+techniques aim to classify and place the computational load
+in an energy-efficient manner [6, 14, 16, 17, 19]. They try to
+scale-down servers by manufacturing idleness by migrating
+workloads and their corresponding state to fewer machines
+during periods of low activity. This can be relatively easy to
+accomplish when using simple data models, when servers are
+mostly stateless (e.g., serving data that resides on a shared
+NAS or SAN storage system). However, in complex data
+distribution models that have significant state, such tech-
+niques cannot manufacture enough idleness to make usage
+of inactive power modes feasible. One such example is the
+Hadoop compute cluster><><><
