@@ -1,22 +1,6 @@
-Cloud computing has gained rapid popularity from quite some time and it's usage has been quadrupled in the last 4 years. According to a research by Nasuni in 2013 there was just over 1 Exabyte or 1024 Petabytes of data stored in the cloud, and now  Google Cloud Storge alone has about 30 Exabytes of data and While there exists even bigger gaints in the industry like the Amazon Web Services (AWS) , Microsoft Azure and many more equally efficient cloud storage providers like the Alibaba Cloud , IBM Cloud ..etcetera etcetera.. . But what exactly is the cloud storage and processing used for? The clouds currenty provide the resources the data-intensive computing needs which includes advertising optimizations, user interest predictions, mail anti-spam detection and many such similar data analytics it is also currenty being used for live streaming of data which turned out to be of great use for the main reason for the success story of one of the most famous media-services provider, the Netflix.
+The exponential growth of scientific and business data has resulted in the evolution of the cloud computing . The Cloud computing has gained rapid popularity from quite some time and it's usage has been quadrupled in the last 4 years. According to a research by Nasuni in 2013 there was just over 1 Exabyte or 1024 Petabytes of data stored in the cloud, and now  Google Cloud Storge alone has about 30 Exabytes of data and While there exists even bigger gaints in the industry like the Amazon Web Services (AWS) , Microsoft Azure and many more equally efficient cloud storage providers like the Alibaba Cloud , IBM Cloud ..etcetera etcetera.. . But what exactly is the cloud storage and processing used for? The cloud companies currenty provide the resources the data-intensive computing needs which includes advertising optimizations, user interest predictions, mail anti-spam detection and many such similar data analytics it is also currenty being used for live streaming of data which turned out to be the main reason for the success story of one of the most famous media-services provider, the Netflix.
 
-><><
-Most enterprises today are focusing their attention on energy efficient
-computing, motivated by high operational costs for their large scale clus-
-ters and warehouses. This power related cost includes investment, operating
-expenses, cooling costs and environmental impacts.
+/*Now that we know how the cloud industry has developed over the last couple of years we can also guess that the energy consumed by this industry is also increased exponentially.*/
 
-There is significant amount of research literature about
-datacenter energy management. A large number of these
-techniques aim to classify and place the computational load
-in an energy-efficient manner [6, 14, 16, 17, 19]. They try to
-scale-down servers by manufacturing idleness by migrating
-workloads and their corresponding state to fewer machines
-during periods of low activity. This can be relatively easy to
-accomplish when using simple data models, when servers are
-mostly stateless (e.g., serving data that resides on a shared
-NAS or SAN storage system). However, in complex data
-distribution models that have significant state, such tech-
-niques cannot manufacture enough idleness to make usage
-of inactive power modes feasible. One such example is the
-Hadoop compute cluster><><><
+The implementation that the current cloud providers have adoped to structure their datacenters for the best effeciency of data storage/retrival is the HDFS architecture i.e ,the Hadoop Distributed File System and parallel processing of data for the effective processing of data. However, this implementation faces tremendous energy consumption, carbon dioxide emission and associated costs concerns. With energy consumption becoming key issue for the operation and maintenance of cloud datacenters, cloud computing providers are becoming profoundly concerned .So most of the cloud enterprises today are focusing their attention on energy efficient computing, motivated by high operational costs for their large scale clusters and warehouses. This power related cost includes investment, operating expenses, cooling costs and environmental impacts.
+
