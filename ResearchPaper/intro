@@ -1,12 +1,6 @@
-Cloud computing has gained rapid popularity from quite some time and its usage has benn quadrupled in last 4 years  According to a research by Nasuni in 2013 there is over 1 Exabyte or 1024 Petabytes of data of data stored in the cloud, and now  Google Cloud Storge alone has about 30 Exabytes of data and While there exists even bigger Gaints in the industry like the Amazon Web Services (AWS) , Microsoft Azure ... <><>><>< 
+Cloud computing has gained rapid popularity from quite some time and it's usage has been quadrupled in the last 4 years. According to a research by Nasuni in 2013 there was just over 1 Exabyte or 1024 Petabytes of data stored in the cloud, and now  Google Cloud Storge alone has about 30 Exabytes of data and While there exists even bigger gaints in the industry like the Amazon Web Services (AWS) , Microsoft Azure and many more equally efficient cloud storage providers like the Alibaba Cloud , IBM Cloud ..etcetera etcetera.. . But what exactly is the cloud storage and processing used for? The clouds currenty provide the resources the data-intensive computing needs which includes advertising optimizations, user interest predictions, mail anti-spam detection and many such similar data analytics it is also currenty being used for live streaming of data which turned out to be of great use for the main reason for the success story of one of the most famous media-services provider, the Netflix.
 
-Data-inten-sive computing needs include advertising optimizations, user-
-interest predictions, mail anti-spam, data analytics and de-
-riving search rankings. With the increase in the sheer vol-
-ume of the data that needs to be processed, storage and
-server demands of computing workloads are on a rapid in-
-crease.
-<><><
+><><
 Most enterprises today are focusing their attention on energy efficient
 computing, motivated by high operational costs for their large scale clus-
 ters and warehouses. This power related cost includes investment, operating
