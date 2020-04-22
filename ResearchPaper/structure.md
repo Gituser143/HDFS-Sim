@@ -85,3 +85,5 @@ Reconfiguration Algorithm for MapReduce Framework.
 
 * [4] Hieu Hanh LE, Satoshi Hikida, Haruo Yokota. An Evaluation of Power-proportional Data Placement for
 Hadoop Distributed File Systems.
+
+* [5] B. Ramesh, R. Balu. Cloud Computing : An Analysis of the previous decade
