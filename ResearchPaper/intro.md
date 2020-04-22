@@ -24,7 +24,7 @@ So most of the cloud enterprises today are focusing their attention on energy ef
 HDFS  
 ====
 
-Hadoop Distributed File System briefly know as HDFS is a key part of the many cloud eco systems, as it provides a reliable means for managing pools of big data and supporting related big data analytics based applications. HDFS supports the rapid transfer of data between compute nodes.  
+Hadoop Distributed File System (HDFS) is a key part of many cloud eco systems, as it provides a reliable means for managing pools of big data and supporting related big data analytics based applications. HDFS supports the rapid transfer of data between compute nodes.  
 
 When HDFS takes in data, it breaks the information down into separate blocks and distributes them to different nodes in a cluster, thus enabling highly efficient distributed processing. Moreover, the Hadoop Distributed File System is specially designed to be highly fault-tolerant. The file system replicates each block multiple times and distributes them across several nodes, placing at least one copy on a different server rack than the others. As a result, the data on nodes that crash can be found elsewhere within a cluster. This ensures that processing can continue while data is recovered.  
 
