@@ -7,7 +7,7 @@ Cloud computing has been rising in popularity and it's usage has been quadrupled
 
 These cloud companies currenty provide the resources that data-intensive computing needs which include advertising optimizations, user interest predictions, mail anti-spam detection and many such similar data analytics. It's also currenty being used for live streaming of data which turned out to be the main reason for the success story of one of the most famous media-services provider, Netflix.  
 
-The implementation that the current cloud providers have adopted to structure their datacenters for the best effeciency of data storage/retrival is with the usage of HDFS architecture i.e, the Hadoop Distributed File System and parallel processing of data for the effective data processing. However, this implementation faces tremendous energy consumption and associated cost concerns. With energy consumption becoming key issue for the operation and maintenance of cloud datacenters, cloud computing providers are becoming profoundly concerned.  
+The implementation that the current cloud providers have adopted to structure their datacenters for maximum effeciency of data storage/retrival is using the HDFS architecture i.e, the Hadoop Distributed File System and parallel processing of data for the effective data processing. However, this implementation faces tremendous energy consumption and associated cost concerns. With energy consumption becoming key issue for the operation and maintenance of cloud datacenters, cloud computing providers are becoming profoundly concerned.  
 
 So most of the cloud enterprises today are focusing their attention on energy efficient computing, motivated by high operational costs for their large scale clusters and warehouses. This power related cost includes investment, operating expenses, cooling costs and environmental impacts.  
 
@@ -63,6 +63,6 @@ Difference between HDDs and SSDs
 
 * The moving parts of HDDs make them vulnerable to crashes and damages but SSD drives can tolerate vibration up to 2000Hz.
 
-* The Key Difference between HDDs and SSDs that effects the algorithm is *SSDs Consumes less energy and and is much more efficient than the HDDs but the cost of SSD is Approximately 5 times the cost of the HDDs for the same amount of storage.*
+* The Key Difference between HDDs and SSDs that affects the algorithm is *SSDs Consumes less energy and and is much more efficient than the HDDs but the cost of SSD is Approximately 5 times the cost of the HDDs for the same amount of storage.*
 
 ---------------------------------------------------------------
