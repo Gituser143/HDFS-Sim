@@ -1,25 +1,18 @@
 Introduction  
 ==============  
 
-The exponential growth of scientific and business data has resulted in the evolution of the cloud computing.  
+The exponential growth of scientific and business data has resulted in the evolution of cloud computing.  
 
 Cloud computing has gained rapid popularity for quite some time and it's usage has been quadrupled in the last 4 years. According to a research by Nasuni in 2013 there was just over 1 Exabyte or 1024 Petabytes of data stored in the cloud, and now  Google Cloud Storge alone has about 30 Exabytes of data and while there exists even bigger giants in the industry like the Amazon Web Services(AWS), Microsoft Azure and many more equally efficient cloud storage providers like the Alibaba Cloud, IBM Cloud, etc.  
 
-But what exactly is this cloud storage and processing used for? These cloud companies currenty provide the resources that data-intensive computing needs which includes advertising optimizations, user interest predictions, mail anti-spam detection and many such similar data analytics. It is also currenty being used for live streaming of data which turned out to be the main reason for the success story of one of the most famous media-services provider, Netflix.  
+These cloud companies currenty provide the resources that data-intensive computing needs which includes advertising optimizations, user interest predictions, mail anti-spam detection and many such similar data analytics. It is also currenty being used for live streaming of data which turned out to be the main reason for the success story of one of the most famous media-services provider, Netflix.  
 
 The implementation that the current cloud providers have adopted to structure their datacenters for the best effeciency of data storage/retrival is with the usage of HDFS architecture i.e, the Hadoop Distributed File System and parallel processing of data for the effective data processing. However, this implementation faces tremendous energy consumption and associated cost concerns. With energy consumption becoming key issue for the operation and maintenance of cloud datacenters, cloud computing providers are becoming profoundly concerned.  
 
 So most of the cloud enterprises today are focusing their attention on energy efficient computing, motivated by high operational costs for their large scale clusters and warehouses. This power related cost includes investment, operating expenses, cooling costs and environmental impacts.  
 
---------------------------------------------------------------------
+A majority of existing techniques to improve energy efficiency of HDFS clusters is to configure the cluster into active and in-active set of nodes based on different criteria of replication factor, workload and data access pattern. Use of these methods negatively impact the performance, availability and fault-tolerance of the cluster as these cannot be varied later. We aim to implement methods which reduce energy consumption of a cluster without having such negative side-effects.
 
-*Edit the following to suit our algoritm*  
------------------------------------------
->A majority of existing techniques to improve energy efficiency of MapReduce dynamically configure the cluster into active and in-active set of nodes based on different criteria of replication factor, workload and data access pattern. Use of these methods negatively impact the performance, availability and fault-tolerance of the cluster.   
-
->We want to develop methods which reduce energy consumption of a cluster without having such negative side-effects.
-
---------------------------------------------------------------------
 
 HDFS  
 ====
@@ -29,14 +22,6 @@ Hadoop Distributed File System (HDFS) is a key part of many cloud eco systems, a
 When HDFS takes in data, it breaks the information down into separate blocks and distributes them to different nodes in a cluster, thus enabling highly efficient distributed processing. Moreover, the Hadoop Distributed File System is specially designed to be highly fault-tolerant. The file system replicates each block multiple times and distributes them across several nodes, placing at least one copy on a different server rack than the others. As a result, the data on nodes that crash can be found elsewhere within a cluster. This ensures that processing can continue while data is recovered.  
 
 HDFS uses master/slave architecture. In its initial incarnation, each Hadoop cluster consisted of a single NameNode that managed file system operations and supporting DataNodes that managed data storage on individual compute nodes.  
-
-
->The Hadoop Distributed File System arose at Yahoo as a part of that company's ad serving and search engine requirements. Like other web-
-oriented companies, Yahoo found itself juggling a variety of applications that were accessed by a growing numbers of users, who were creating
-more and more data. Facebook, eBay, LinkedIn and Twitter are among the web companies that used HDFS to underpin big data analytics to address
-these same requirements.But the file system found use beyond that. HDFS was used by The New York Times as part of large-scale image
-conversions, Media6Degrees for log processing and machine learning, LiveBet for log storage and odds analysis  
-
 
 Because HDFS is typically deployed as part of very large-scale implementations, support for low-cost commodity hardware is a particularly useful feature. Such systems, running web search and related applications, for example, can range into the hundreds of petabytes from thousands of nodes. They must be especially resilient, as server failures are common at such a large scale.  
 
