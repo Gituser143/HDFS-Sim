@@ -22,3 +22,15 @@ This zone makes use of SSDs as the storage device. Nodes in this zone store data
 This zone is always active, Hot data is concentrated among nodes in this zone. The nodes in the hot zone are built for high computation and lower energy consumption. But this comes at the cost of price. SSDs are more expensive with respect to the alternative of HDDs. Thus the Hot Zone is structured (percentage of cluster nodes to be considered as Hot) in such a way so as to be able to handle computation of Hot Data without storing unnecessary data that would waste precious SSD space. Thus, the least percentage of nodes possible are made into Hot Nodes to avoid excessive cost overruns.
 
 Statistically, almost 80% of data stored in clusters is almost never used after a certain period of time (approximately 1 month after creation). Data is used mostly close to the time period since it was created. Thus, our implementation of Hot zone will store this data as it is being used frequently and as soon as it goes cold, it is transferred over to the cold zone. This avoids wastage of space in the hot zone. The cold zone on the other hand is built precisely to store data that is not frequently used.
+
+
+Cold-Zone
+---------
+
+This zone comprises of HDDs being used as storage devices. Infrequently accessed data or cold data is stored in this zone as 
+performance is traded off for higher energy conservation in this zone. This zone would have the servers stay in an inactive power-saving state whenever possible.
+
+This zone is mostly inactive and has lower computational capacity than the hot zone. Power management schemes applied here will be gravitating towards transitioning the cold-zone servers towards a low power consuming and inactive power mode. Various volumes of cold data would be stored in the HDDs in this zone. The main idea here is to reduce server idle times and transition most of the servers into the inactive power-saving mode. This zone maximizes use of already powered-on servers by a placement policy which places most of the cold blocks in the initial servers defined by an order.
+
+Blocks of data are moved to the cold-zone(from the hot-zone) as the block inactivity decreases to save energy. Upon transfer/access of a block, only the target server will wake up from its inactive power-saving state. Data inside the cold zone will have a lower replication factor than the hot-zone. 
+
