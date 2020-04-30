@@ -3,11 +3,11 @@ Introduction
 
 The exponential growth of scientific and business data has resulted in the evolution of cloud computing.  
 
-Cloud computing has been rising in popularity and it's usage has been quadrupled in the last 4 years. According to [5] there was just over 1 Exabyte or 1024 Petabytes of data stored in the cloud. Now,  Google Cloud Storge alone has about 30 Exabytes of data and there exists even bigger giants in the industry like Amazon Web Services(AWS), Microsoft Azure and many more equally efficient cloud storage providers like Alibaba Cloud, IBM Cloud, etc.  
+Cloud computing has been rising in popularity and it's usage has been quadrupled in the last 4 years. According to [5] there was just over 1 Exabyte or 1024 Petabytes of data stored in the cloud. Now,  Google Cloud Storage alone has about 30 Exabytes of data and there exists even bigger giants in the industry like Amazon Web Services(AWS), Microsoft Azure and many more equally efficient cloud storage providers like Alibaba Cloud, IBM Cloud, etc.  
 
-These cloud companies currenty provide the resources that data-intensive computing needs which include advertising optimizations, user interest predictions, mail anti-spam detection and many such similar data analytics. It's also currenty being used for live streaming of data which turned out to be the main reason for the success story of one of the most famous media-services provider, Netflix.  
+These cloud companies currently provide the resources that data-intensive computing needs which include advertising optimizations, user interest predictions, mail anti-spam detection and many such similar data analytics. It's also currently being used for live streaming of data which turned out to be the main reason for the success story of one of the most famous media-services provider, Netflix.  
 
-The implementation that the current cloud providers have adopted to structure their datacenters for maximum effeciency of data storage/retrival is using the HDFS architecture i.e, the Hadoop Distributed File System and parallel processing of data for the effective data processing. However, this implementation faces tremendous energy consumption and associated cost concerns. With energy consumption becoming key issue for the operation and maintenance of cloud datacenters, cloud computing providers are becoming profoundly concerned.  
+The implementation that the current cloud providers have adopted to structure their data-centers for maximum efficiency of data storage/retrieval is using the HDFS architecture i.e, the Hadoop Distributed File System and parallel processing of data for the effective data processing. However, this implementation faces tremendous energy consumption and associated cost concerns. With energy consumption becoming key issue for the operation and maintenance of cloud data-centers, cloud computing providers are becoming profoundly concerned.  
 
 So most of the cloud enterprises today are focusing their attention on energy efficient computing, motivated by high operational costs for their large scale clusters and warehouses. This power related cost includes investment, operating expenses, cooling costs and environmental impacts.  
 
@@ -17,7 +17,7 @@ A majority of existing techniques to improve energy efficiency of HDFS clusters 
 HDFS  
 ====
 
-Hadoop Distributed File System (HDFS) is a key part of many cloud eco systems, as it provides a reliable means for managing pools of big data and supporting related big data analytics based applications. HDFS supports the rapid transfer of data between compute nodes.  
+Hadoop Distributed File System (HDFS) is a key part of many cloud Eco-systems, as it provides a reliable means for managing pools of big data and supporting related big data analytics based applications. HDFS supports the rapid transfer of data between compute nodes.  
 
 When HDFS takes in data, it breaks the information down into separate blocks and distributes them to different nodes in a cluster, thus enabling highly efficient distributed processing. Moreover, the Hadoop Distributed File System is specially designed to be highly fault-tolerant. The file system replicates each block multiple times and distributes them across several nodes, placing at least one copy on a different server rack than the others. As a result, the data on nodes that crash can be found elsewhere within a cluster. This ensures that processing can continue while data is recovered.  
 
