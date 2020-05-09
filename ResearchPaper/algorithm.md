@@ -14,11 +14,43 @@ If l < lt the block is still hot.
 
 
 Transition Script
-------------
+-------------------
 
 This script running in the namenode would process the heartbeat information H(d) from each datanode and instruct the namenode to shift blocks accordingly based on the approach chosen(frquent/infreqent).
 Thus heartbeats from all the datanodes are analyzed and cold blocks are then transferred to the cold zone via the namenode. This could be thought of as a heartbeat checker daemon specific to the parameter B.
 The namenode would be instructed to transfer cold blocks which have been marked for transfer(by one of the two algorithms) and handle the replication factor in each zone after the transfer.   
+
+Infrequent transfer
+====================
+
+Insert pic here and call it fig[heck1]
+------------------
+(This part describes the figure, would be written below the figure in small font)
+Figure[heck1] : Customized block placement policy- infrequent transfer
+This figure represents a cluster set-up. The nodes marked in red comprise the hot zone whereas the nodes marked in blue comprise the cold zone. Each zone has its own block balancer due to the different replication factor in each zone. A transition script runs in the namenode marked by the color red.
+------------------
+
+
+Algorithm
+----------
+
+This algorithm is based on the value of cold blocks in a particular datanode in the hot zone at a given time. Blocks turn cold based off the condition l>lt and thus cold blocks accumulate on each datanode with time. The transition script checks if the percentage of cold blocks which have been accumulated on a particular datanode have crossed a threshold value(T).
+
+If this globally set threshold value becomes lesser than the percentage of blocks accumulated over a certain datanode, the cold blocks are then flushed to the cold zone. The cold blocks being transferred lose their replicas in the hot zone and are then replicated in the cold zone as required. Thus when the amount of cold blocks in any datanode in the hot zone reaches the threshold value T, the cold blocks are flushed to the cold zone. This happens continously to each datnode in the hot zone as more and more cold blocks form.
+
+The flushing process wakes up the cold zone servers and the namenode assigns the cold blocks coming from the hot zone its respective places in the cold zone servers. The resulting blocks are then balanced in both the zones using block balancers.
+This is termed as infrequent method since 
+
+
+Frequent transfer
+==================
+
+fig[heck2]
+----------------
+fig[heck2] : Customized block placement policy - frequent transfer
+
+
+
 
 
 
