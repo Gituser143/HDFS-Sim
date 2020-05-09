@@ -39,6 +39,7 @@ This algorithm is based on the value of cold blocks in a particular datanode in 
 If this globally set threshold value becomes lesser than the percentage of blocks accumulated over a certain datanode, the cold blocks are then flushed to the cold zone. The cold blocks being transferred lose their replicas in the hot zone and are then replicated in the cold zone as required. Thus when the amount of cold blocks in any datanode in the hot zone reaches the threshold value T, the cold blocks are flushed to the cold zone. This happens continously to each datnode in the hot zone as more and more cold blocks form.
 
 The flushing process wakes up the cold zone servers and the namenode assigns the cold blocks coming from the hot zone its respective places in the cold zone servers. The resulting blocks are then balanced in both the zones using block balancers.
+
 This is termed as infrequent method since 
 
 
@@ -48,6 +49,22 @@ Frequent transfer
 fig[heck2]
 ----------------
 fig[heck2] : Customized block placement policy - frequent transfer
+This set-up has a similar configuration to the one in fig[heck2] but with an extra transition node for cold data accumulation before flushing it to the cold zone. The transition node is represented in green.
+----------------
+
+The transition node
+-------------------
+
+The transition node is unique based on its functional aspect. It only stores cold blocks of data and is comprised of HDD(s).
+It is an intermediary node for the flushing of data from the hot to the cold zone. HDDs are used here as it only consists of cold data to improve cost efficiency.
+
+
+Algorithm
+----------
+
+Blocks which turn cold are transferred to the transition node immediately. The transition node accumulates cold blocks until it reaches a threshold value Tt. Once the threshold value is reached, the node flushes all cold data it contains into the cold zone.
+It wakes up the required amount of servers in the cold zone according to the number of blocks in the transition node for data transfer. Thus, data transfer happens through an intermediary transition node.
+
 
 
 
