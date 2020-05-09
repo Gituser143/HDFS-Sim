@@ -24,11 +24,10 @@ Infrequent transfer
 ====================
 
 Insert pic here and call it fig[heck1]
-------------------
+
 (This part describes the figure, would be written below the figure in small font)
 Figure[heck1] : Customized block placement policy- infrequent transfer
 This figure represents a cluster set-up. The nodes marked in red comprise the hot zone whereas the nodes marked in blue comprise the cold zone. Each zone has its own block balancer due to the different replication factor in each zone. A transition script runs in the namenode marked by the color red.
-------------------
 
 
 Algorithm
@@ -47,10 +46,9 @@ Frequent transfer
 ==================
 
 fig[heck2]
-----------------
+
 fig[heck2] : Customized block placement policy - frequent transfer
 This set-up has a similar configuration to the one in fig[heck2] but with an extra transition node for cold data accumulation before flushing it to the cold zone. The transition node is represented in green.
-----------------
 
 The transition node
 -------------------
