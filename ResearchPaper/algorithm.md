@@ -5,7 +5,7 @@ Heartbeat information
 
 Let H(d) be the heartbeat information sent out by each datanode. H(d) for a datnode would contain information about the amount of blocks in the datanode which have turned cold based on a last accessed time parameter l for the particular block of data. Thus the information a heartbeat sends H(d) is modified to contain an array(B) of binary values 0,1,0.......n (b1,b2,b3....bn) where n is the total number of blocks in the datanode. 
 
-* 1 implies the block has turned cold based on the last accessed parameter l. Here 
+* 1 implies the block has turned cold based on the last accessed parameter l.  
 * 0 implies the data block is still hot.
 
 The binary values are determined by the value of lt set globally over the cluster and can be overriden for particular servers.
@@ -62,7 +62,6 @@ Algorithm
 
 Blocks which turn cold are transferred to the transition node immediately. The transition node accumulates cold blocks until it reaches a threshold value Tt. Once the threshold value is reached, the node flushes all cold data it contains into the cold zone.
 It wakes up the required amount of servers in the cold zone according to the number of blocks in the transition node for data transfer. Thus, data transfer happens through an intermediary transition node.
-
 
 
 
