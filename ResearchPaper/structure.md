@@ -5,6 +5,9 @@ With the growth of big data, the need for distributed computing and clusters is 
 
 The approach to saving energy is to split the cluster into two “Zones”, a “Hot-Zone”, and a “Cold-Zone”. The Hot-Zone would have energy efficient storage devices (SSDs) and would store data that is used frequently. The Cold-Zone would have lesser energy efficient devices (HDDs) and would be used to store data that is not frequently used. The Hot-Zone would be active 24/7 to compute while the cold zone would be in a low power state.
 
+Literature survey
+-----------------
+Add Literature survey along with shortcomings and solutions.
 ------------------------------------------
 
 Introduction
@@ -29,17 +32,6 @@ TBA
 
 ------------------------------------------
 
-Simulator details
-==================
-
-TBA
-
-* Include basic working of the simulator abstracted to a certain extent (should be relevant to the point of the paper)
-* Include various modifiable and relevant parameters of the simulator, link it with the previous point
-* Include how power is calculated internally for a cluster run.
-
-------------------------------------------
-
 Implementation details(Algorithm)
 ==================================
 
@@ -49,6 +41,17 @@ TBA
 * Transfer with transition node
 * Transfer without transition node
 * Add some math stuff here for extra confusement
+
+------------------------------------------
+
+Simulator details
+==================
+
+TBA
+
+* Include basic working of the simulator abstracted to a certain extent (should be relevant to the point of the paper)
+* Include various modifiable and relevant parameters of the simulator, link it with the previous point
+* Include how power is calculated internally for a cluster run.
 
 ------------------------------------------
 
@@ -69,8 +72,6 @@ TBA
 
 ------------------------------------------
 
-Acknowledgements
------------------
 
 References
 ===========
