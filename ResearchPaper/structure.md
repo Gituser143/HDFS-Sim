@@ -88,3 +88,5 @@ Reconfiguration Algorithm for MapReduce Framework.
 Hadoop Distributed File Systems.
 
 * [5] B. Ramesh, R. Balu. Cloud Computing : An Analysis of the previous decade
+
+* [6] Corentin Debains, Pedro Alvarez-Tabio Togores, Firat Karakusoglu: Reliability of Data-Intensive Distributed File System: A Simulation Approach
