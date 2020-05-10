@@ -8,7 +8,7 @@ The simulator handled default policies of HDFS and accurately simulated HDFS fun
 * Modified ```datanode``` class which implements the use of SSDs and HDDs.
 * Custom block placement policies.
 * Custom block balancers.
-* Modified block and blockInfo which allows us to record and utilize metadata of blocks.
+* Modified ```block``` and ```blockInfo``` which allows us to record and utilize metadata of blocks.
 * Transition scripts to handle conversion of hot data to cold data and transfer between zones.
 
 By making said modifications to the simulator, we were able to accurately test functionality and measure energy consumption for various workloads and cluster configurations. The results of these evaluations are described in the following section.
