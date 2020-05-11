@@ -6,7 +6,7 @@ We used peteratt's simulator to simulate the HDFS architecture and later built o
 Multiple-Iterations
 -------------------
 - Energy Vs Data Size
-<img src="../Presentations/Data-Reports/Multiple-Iterations/output_6_0.png" height = "500" width = "500">
+<img src="../Presentations/Data-Reports/Multiple-Iterations/output_6_0.png" height = "400" width = "500">
 
 - Energy Vs Number of nodes
 <img src="../Presentations/Data-Reports/Multiple-Iterations/output_13_0.png" height = "500" width = "500">
