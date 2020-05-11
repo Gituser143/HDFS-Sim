@@ -7,14 +7,13 @@ Multiple-Iterations
 -------------------
 - Energy Vs Data Size
 <img src="../Presentations/Data-Reports/Multiple-Iterations/output_6_0.png" height = "500" width = "500">
-![](../Presentations/Data-Reports/Multiple-Iterations/output_6_0.png)
 
 - Energy Vs Number of nodes
+<img src="../Presentations/Data-Reports/Multiple-Iterations/output_13_0.png" height = "500" width = "500">
 
-![](../Presentations/Data-Reports/Multiple-Iterations/output_13_0.png)
 
 - Energy Vs Hot-Zone percentage
-![](../Presentations/Data-Reports/Multiple-Iterations/output_16_0.png)
+<img src="../Presentations/Data-Reports/Multiple-Iterations/output_16_0.png" height = "500" width = "500">
 
 
 
@@ -30,27 +29,31 @@ This is the total energy consumed for the HDFS simulated with the following conf
 - Number of Blocks : 75000  
 - Percentage of data going cold : 80%
 
-![](../Presentations/Data-Reports/Single-Iteration/Total-Power-Consumtion.png)
+<img src="../Presentations/Data-Reports/Single-Iteration/Total-Power-Consumtion.png" height = "500" width = "500">
+
 
 ### Split and comparision of different components of power consumption
 
 - During boot
 
-![](../Presentations/Data-Reports/Single-Iteration/output_7_0.png)
+<img src="../Presentations/Data-Reports/Single-Iteration/output_7_0.png" height = "500" width = "500">
 
 - First read and first write
 
+<img src="../Presentations/Data-Reports/Multiple-Iterations/output_13_0.png" height = "500" width = "500">
 ![](../Presentations/Data-Reports/Single-Iteration/output_8_0.png)
 
 - Maintaining the HDFS Infrastructure
 
-![](../Presentations/Data-Reports/Single-Iteration/output_9_0.png)
+<img src="../Presentations/Data-Reports/Single-Iteration/output_9_0.png" height = "500" width = "500">
+
 
 - Data transfer between the zones
 
-![](../Presentations/Data-Reports/Single-Iteration/output_10_0.png)
+<img src="../Presentations/Data-Reports/Single-Iteration/output_10_0.png" height = "500" width = "500">
+
 
 - Block balancing and continued reads
 
-![](../Presentations/Data-Reports/Single-Iteration/output_11_0.png)
+<img src="../Presentations/Data-Reports/Single-Iteration/output_11_0.png" height = "500" width = "500">
 
