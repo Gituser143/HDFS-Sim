@@ -40,7 +40,7 @@ This is the total energy consumed for the HDFS simulated with the following conf
 
 - First read and first write
 
-<img src="../Presentations/Data-Reports/Multiple-Iterations/output_13_0.png" height = "500" width = "500">
+<img src="../Presentations/Data-Reports/Single-Iteration/output_8_0.png" height = "500" width = "500">
 
 
 - Maintaining the HDFS Infrastructure
