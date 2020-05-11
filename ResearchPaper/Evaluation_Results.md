@@ -17,5 +17,40 @@ Multiple-Iterations
 ![](../Presentations/Data-Reports/Multiple-Iterations/output_16_0.png)
 
 
+
 Single-Iteration
 -----------------
+
+### Total power consumption
+
+This is the total energy consumed for the HDFS simulated with the following configurations.  
+- Replication factor hot zone : 3  
+- Replication factor cold zone : 2  
+- Number of nodes : 100  
+- Number of Blocks : 75000  
+- Percentage of data going cold : 80%
+
+![](../Presentations/Data-Reports/Single-Iteration/Total-Power-Consumtion.png)
+
+### Split and comparision of different components of power consumption
+
+- During boot
+
+![](../Presentations/Data-Reports/Single-Iteration/output_7_0.png)
+
+- First read and first write
+
+![](../Presentations/Data-Reports/Single-Iteration/output_8_0.png)
+
+- Maintaining the HDFS Infrastructure
+
+![](../Presentations/Data-Reports/Single-Iteration/output_9_0.png)
+
+- Data transfer between the zones
+
+![](../Presentations/Data-Reports/Single-Iteration/output_10_0.png)
+
+- Block balancing and continued reads
+
+![](../Presentations/Data-Reports/Single-Iteration/output_11_0.png)
+
