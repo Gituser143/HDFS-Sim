@@ -6,3 +6,4 @@ SEM 4 Mini Project: Energy efficiency for HDFS
 * ```Statistics/``` contains data used for plotting graphs along with script to clean data and notebook to plot data.
 * ```notes.md``` contains notes about hadoop.
 * ```transfer-algorithm.md``` contains the algorithm used to shift blocks between zones.
+* ```ResearchPaper``` contains the Data realted to the final research paper
