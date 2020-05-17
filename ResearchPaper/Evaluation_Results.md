@@ -14,10 +14,14 @@ Energy Vs Data Size
 --------------------
 <img src="../Presentations/Data-Reports/Multiple-Iterations/output_6_0.png" height = "400" width = "500">
 
+The above graph shows the variation of energy consumed when the total amount of data (number of blocks) in the cluster is varied. As clearly visible from the graph the custom layout, policies and transfer algorithm show significant decrease in energy consumption when compared to the default working.
+The depressions in the two lines corresponding to 30% Hot Zone and 100% Hot Zone are due to the blocks fitting perfectly into the active nodes. What this means is that the number of blocks that exist are such that they are distributed evenly across the active nodes and these nodes are utilized to their full capacity. For example, if there existed 5 hot nodes with each node having the capacity to store a maximum of 3 blocks, and the total number of blocks needed to be stored are 9, these blocks are evenly distributed across 3 nodes and the fourth and fifth node can be put to sleep. But in the case when an extra block exists, i.e., total number of blocks is 10, we need an additional node just to store one block.
+
 Energy Vs Number of nodes
 -------------------------
 <img src="../Presentations/Data-Reports/Multiple-Iterations/output_13_0.png" height = "400" width = "500">
 
+The above graph shows the variation of energy consumed by the cluster as a function of number of nodes in the cluster. A key point to note here is that with increase of nodes, the simulated size of the workload was also increased. For every node added, 200 additional blocks were placed in the cluster. This shows that the custom zone implementation along with custom policies and a transfer algorithm can easily keep up when a cluster is scaled. The dips here too signify the even distribution of blocks in the hot zone.
 
 Total power consumption
 -----------------------
