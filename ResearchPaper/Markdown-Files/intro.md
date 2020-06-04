@@ -3,7 +3,7 @@ Introduction
 
 The exponential growth of scientific and business data has resulted in the evolution of cloud computing.  
 
-Cloud computing has been rising in popularity and it's usage has been quadrupled in the last 4 years. According to [5] there was just over 1 Exabyte or 1024 Petabytes of data stored in the cloud. Now,  Google Cloud Storage alone has about 30 Exabytes of data and there exists even bigger giants in the industry like Amazon Web Services(AWS), Microsoft Azure and many more equally efficient cloud storage providers like Alibaba Cloud, IBM Cloud, etc.  
+Cloud computing has been rising in popularity and it's usage has been quadrupled in the last 4 years. According to [5] there was just over 1 Exabyte or 1024 Petabytes of data stored in the cloud. Now, Google Cloud Storage alone has about 30 Exabytes of data and there exists even bigger giants in the industry like Amazon Web Services(AWS), Microsoft Azure and many more equally efficient cloud storage providers like Alibaba Cloud, IBM Cloud, etc.  
 
 These cloud companies currently provide the resources that data-intensive computing needs which include advertising optimizations, user interest predictions, mail anti-spam detection and many such similar data analytics. It's also currently being used for live streaming of data which turned out to be the main reason for the success story of one of the most famous media-services provider, Netflix.  
 
@@ -27,42 +27,28 @@ Because HDFS is typically deployed as part of very large-scale implementations, 
 
 --------------------------------------------------------------------
 
-Solid State Drives and Hard Disk Drives  
+Storage devices in cluster servers
 ========================================  
 
 Hard Disk Drive (HDD)  
 ---------------------
-An HDD uses magnetism, which allows you to store data on a rotating platter. It has a read/write head that floats above the spinning platter for reading and writing of data. The faster the platter spins, the quicker an HDD can perform.  
 
-An HDD also consists of an I/O controller and firmware, which tells the hardware what to do and communicates with the remaining system. The hard disk is made up of a number of spinning magnetic platters that store data and a number of reading/write heads on mechanical arms that move on the surface of the platters.  
+Hard disk is a basic storage device which uses magnetism, allowing one to store data on a rotating platter. It has a read/write head that floats above the spinning platter for reading and writing of data. The faster the platter spins, the quicker an HDD can perform. Its power draw depends on various charactersticts such as heat dissipation, form factor, rotational latency, spin speeds,etc.
 
-To read or write data at a certain sector of a platter, the head requires to move to the appropriate position and then need to wait for the
-sector to pass underneath it when the platter rotates.
+ Most hard disk drives today support some form of power management which uses a number of specific power modes that save energy by reducing performance. When implemented, an HDD will change between a full power mode to one or more power saving modes as a function of drive usage. Recovery from the deepest mode, typically called Sleep where the drive is stopped or spun down, may take as long as several seconds to be fully operational thereby increasing the resulting latency. Drive manufacturers are also now producing green drives that include some additional features that do reduce power, but can adversely affect the latency including lower spindle speeds and parking heads off the media to reduce friction.
 
 -------------------------------------------------------------------
 
 Solid State Drive (SSD)  
 -----------------------
-Solid State Drives (SSDs) are a non-volatile storage device that stores and retrieves data constantly on solid-state flash memory. However, this data is stored on interconnected flash memory chips instead of platters, which makes them faster than HDDs. It provides better performance compared to HDD.
-
-SSD drive works completely different than a HDD. It uses a solid state medium, typically NAND (often known as flash). Data is written to or read from the NAND by a controller, which is consider the brains of the device. With SSD, there is no variable seek time or rotational latency because all the parts of the SSD can be accessed in the same amount of time.   
-
-SSD read and write speeds are uneven, so data reads are very fast, but SSD write speeds are quite slower. That is because SSD storage is made up of individual NAND cells, which helps you to store one bit of data, and groups of cells are organized into pages. Moreover, groups of pages are organized into blocks.
+Solid State Drives (SSDs) are a non-volatile storage device that stores and retrieves data constantly on solid-state flash memory. However, this data is stored on interconnected flash memory chips instead of platters, which makes them faster than HDDs. It provides better performance compared to HDD. SSD read and write speeds are uneven, so data reads are very fast, but SSD write speeds are quite slower. SSDs draw less power and have significantly faster read and write speeds. It however, being a new technology is around five times more expensive than traditional hard disks.
 
 -------------------------------------------------------------------
 
-Difference between HDDs and SSDs
+Key differences
+
 ---------------------------------
-* HDD has a slower speed for reading and writing data and SSD is faster at reading and writing data.
 
-* HDD has higher latency whereas SSD has a lower latency.
+ In terms of read and write speeds, HDDs have a slower speed for reading and writing data and SSDs are significantly faster . Hard disks have a higher latency whereas SSDs have lower latencies. In addition to supporting more I/O operations per seconds, SSDs are less prone to crashes and damages. The main Difference between HDDs and SSDs that affects the algorithm is *SSDs Consumes less energy and and is much more efficient than the HDDs but the cost of SSD is Approximately 5 times the cost of the HDDs for the same amount of storage.* Thus, there needs to be a compromise between cost efficiency and power efficiency.
 
-* HDD supports fewer I/O operations per second (IOPS) while SSD supports more I/O operations per second(IOPS).
 
-* HDD can produce noise due to mechanical movements on the other hand, SSD does not produce such noise.
-
-* The moving parts of HDDs make them vulnerable to crashes and damages but SSD drives can tolerate vibration up to 2000Hz.
-
-* The Key Difference between HDDs and SSDs that affects the algorithm is *SSDs Consumes less energy and and is much more efficient than the HDDs but the cost of SSD is Approximately 5 times the cost of the HDDs for the same amount of storage.*
-
----------------------------------------------------------------
