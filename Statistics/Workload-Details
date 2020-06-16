@@ -1,0 +1,12 @@
+replica_hot_zone=3
+replica_cold_zone=2
+bw=1024
+block=128
+heartbeat=2000
+timeout=3
+dn_capacity=800
+nodes=100
+nBlocks=6000
+HZpercent=100
+Simulated_percentage_of_data_going_cold=80
+threshold=5
